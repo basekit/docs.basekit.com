@@ -33,9 +33,11 @@ All templates must contain a ```metadata.json``` file. This file provides key in
 
 Adding more information to your metadata file means that you can take advantage of Editor features such as colour swatch swapping and font swatch editing. Adding custom colours and fonts gives the user more control of the appearance of their site.
 
-* ```templateType``` (string): From Version >= 7.30. Template type of the template. Default is ```standard``` if not included. This will determine which type of template is for filtering in the template picker. Can either be ```standard```, ```blog```, ```ecommerce``` or ```menu```
+* ```widgetVersion``` (integer): From Version >= 7.42. Default is ```1```. The options are currently ```1``` and ```2```. We recommend using widget version 2 as it has improved markup.
 
-* ```images``` (array): From Version >= 7.32. If you want the images in your template to appear in the Images sidebar within the Editor, you can define them in metadata.json
+* ```templateType``` (string): From Version >= 7.30. Template type of the template. Default is ```standard``` if not included. This will determine which type of template is for filtering in the template picker. Can either be ```standard```, ```blog```, ```ecommerce``` or ```menu```.
+
+* ```images``` (array): From Version >= 7.32. If you want the images in your template to appear in the Images sidebar within the Editor, you can define them in metadata.json:
 
 {% highlight json %}
 
