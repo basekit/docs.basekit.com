@@ -1,8 +1,13 @@
 <head>
-	{% if page.excerpt %}
-		{% assign description = page.excerpt %}
+
+	{% if page.url == '/' %}
+		{% assign description = site.description %}
 	{% else %}
-		{% assign description = page.content | strip_html | replace:'\n',' ' | replace:'# ','' | truncatewords: 11 %}
+		{% if page.excerpt %}
+			{% assign description = page.excerpt %}
+		{% else %}
+			{% assign description = page.content | strip_html | replace:'\n',' ' | replace:'# ','' | truncatewords: 11 %}
+		{% endif %}
 	{% endif %}
 	<!-- General meta -->
 	<meta charset="utf-8">
@@ -29,7 +34,7 @@
 	<meta name="twitter:domain" content="{{ site.url }}">
 	<meta name="robots" content="index, follow">
 
-	{% if page.url == "/index.html" %}
+	{% if page.url == '/' %}
 		<!-- URL meta -->
 		<meta property="og:url" content="{{ site.url }}">
 		<meta name="twitter:url" content="{{ site.url }}">
