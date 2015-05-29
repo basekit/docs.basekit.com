@@ -22,7 +22,7 @@
     "html5shiv": "~3.7.2",
     "pygments": "~1.6.0",
     "position-sticky-polyfill": "~0.1.1",
-    "simple-jekyll-search": "~1.0.1",
+    "simple-jekyll-search": "1.0.1",
     "octicons": "~2.1.2",
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git",
     "gumshoe": "https://github.com/cferdinandi/gumshoe.git",
