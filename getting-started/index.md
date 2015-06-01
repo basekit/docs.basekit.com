@@ -47,6 +47,6 @@ You'll need the following before you start working on a template:
 
    {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip" text="Download Current Stable Version" icon="cloud-download" %} (stable)
 
-   {% include button.html link="http://goo.gl/TFEiBm" text="Latest / Bleeding Edge Version" icon="cloud-download" %} (development)
+   {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-develop.zip" text="Latest / Bleeding Edge Version" icon="cloud-download" %} (development)
 
    [Download Specific Version](https://github.com/basekit-templates/tdk/wiki)
