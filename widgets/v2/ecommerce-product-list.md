@@ -22,7 +22,7 @@ This widget is only compatible with Editor **version 7.32 and above**.
 {% highlight django %}
 {% raw %}
 
-  {{widget('ecomproductlist', 'productlist', {})|raw}}
+  {{widget('ecomproductslist', 'productlist', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
