@@ -238,8 +238,8 @@ body {
 		.search-form {
 			font-size: 20px;
 			line-height: 34px;
-			border: none;
-			color: $dark-text;
+			border: 1px solid $dark-links;
+			max-width: 880px;
 		}
 	}
 
@@ -347,7 +347,7 @@ body {
 		.toggle-button {
 			display: none;
 			float: right;
-			padding: 1px 5px;
+			padding: 5px 10px 6px;
 			span, svg {
 				vertical-align: middle;
 			}
@@ -431,7 +431,8 @@ svg {
 		position: absolute;
 		z-index: 2;
 		right: .2em;
-		top: .25em;
+		top: .3em;
+		padding: 4px;
 		cursor: pointer;
 		@include linearGradient(rgba($light-background, 0), $light-background);
 	}
@@ -472,15 +473,19 @@ fieldset {
 		padding: 0 5px;
 	}
 	.search-form {
-		width: 100%;
-		border: 1px solid darken($light-border, 20%);
-		background: $light-background;
 		position: relative;
 		overflow: hidden;
 		z-index: 1;
+		width: 100%;
+		margin: 0 auto;
+		color: $dark-text;
+		border: 1px solid darken($light-border, 20%);
+		background: $light-background;
+		padding: 5px 8px;
 	}
 	.nav-list--search-results {
 		transition: .2s;
+		list-style: none;
 	}
 	.nav-list--search-results[data-state=highlighted] {
 		background: $highlighted-text;
