@@ -312,6 +312,13 @@ body {
 		border-left-width: 1px;
 		li {
 			list-style: square;
+			list-style-position: inside;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis
+		}
+		ol {
+			padding-left: 3px;
 		}
 	}
 	.aside--versions,
