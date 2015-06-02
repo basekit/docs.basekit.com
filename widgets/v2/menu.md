@@ -13,7 +13,7 @@ versions:
 
 This widget is only compatible with Editor **version 7.32 and above**.
 
-**IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account. This widget is used to display a list of items, dishes, services with a price as per a conventional restaurant menu.
+> **IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account. This widget is used to display a list of items, dishes, services with a price as per a conventional restaurant menu.
 
 ## Examples
 
