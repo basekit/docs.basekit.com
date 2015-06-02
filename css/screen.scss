@@ -69,6 +69,7 @@ body {
 }
 	// In-page content
 	.main--content {
+		position: relative;
 		padding: 15px 0 20px;
 		h1 {
 			margin-top: 0;
@@ -412,6 +413,13 @@ a {
 		}
 	}
 
+	// Edit link
+	.edit {
+		opacity: 0.75;
+		position: absolute;
+		top: 15px;
+		right: 0;
+	}
 
 // Icons
 svg {

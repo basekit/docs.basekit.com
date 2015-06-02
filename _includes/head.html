@@ -6,7 +6,7 @@
 		{% if page.excerpt %}
 			{% assign description = page.excerpt %}
 		{% else %}
-			{% assign description = page.content | strip_html | replace:'\n',' ' | replace:'# ','' | truncatewords: 11 %}
+			{% assign description = page.content | strip_html | replace:'\n',' ' | replace:'# ','' | truncatewords: 30 %}
 		{% endif %}
 	{% endif %}
 	<!-- General meta -->
