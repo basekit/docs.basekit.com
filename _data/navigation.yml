@@ -70,6 +70,8 @@ navdocs:
     url:
   - title: Content Widget
     url: /widgets/v2/content-widget/
+  - title: Page Title
+    url: /widgets/v2/page-title/
   - title: Line
     url: /widgets/v2/line/
   - title: Space

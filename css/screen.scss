@@ -29,6 +29,7 @@ $twig-colour: #DFEA95;
 // Body
 body {
 	color: $dark-text;
+	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	background: $dark-background;
@@ -111,6 +112,17 @@ body {
 		}
 	}
 
+	// Quotes, used for tips and warnings
+	blockquote {
+		margin: 0;
+		padding: 5px 14px;
+		background: lighten($highlighted-text, 2%);
+		border-left: 4px solid darken($highlighted-text, 20%);
+		p {
+			margin-bottom: 0.3em;
+		}
+	}
+
 	// Pygments
 	.highlight {
 		position: relative;
@@ -118,6 +130,7 @@ body {
 		padding: 20px 15px 1px;
 	}
 	code[data-lang]:before {
+		font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
 		content: attr(data-lang);
 		text-transform: uppercase;
 		position: absolute;
@@ -201,7 +214,6 @@ body {
 
 // Feature
 .main--feature {
-	background: darken($light-background, 3%);
 	padding-bottom: 60px;
 	.octicon {
 		font-size: 24px;
@@ -211,15 +223,22 @@ body {
 	.header--feature {
 		padding: 2% 0;
 		margin-bottom: 20px;
+		background: $dark-background;
+		color: $light-text;
+		h1 {
+			color: $light-links;
+		}
 		h2 {
 			padding-bottom: 3%;
 		}
 		.search-label {
-			line-height: 38px;
+			line-height: 34px;
 		}
 		.search-form {
 			font-size: 20px;
 			line-height: 34px;
+			border: none;
+			color: $dark-text;
 		}
 	}
 
@@ -230,9 +249,18 @@ body {
 		position: relative;
 		padding: 30px 30px 60px;
 		min-height: 260px;
-		border: 1px solid darken($light-background, 3%);
 		background: $light-background;
 		text-align: center;
+		&:nth-of-type(1) {
+			border-right: 1px solid $light-border;
+			border-bottom: 1px solid $light-border;
+		}
+		&:nth-of-type(2) {
+			border-bottom: 1px solid $light-border;
+		}
+		&:nth-of-type(3) {
+			border-right: 1px solid $light-border;
+		}
 		.button-container {
 			position: absolute;
 			bottom: 0;
@@ -284,6 +312,13 @@ body {
 		border-left-width: 1px;
 		li {
 			list-style: square;
+			list-style-position: inside;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis
+		}
+		ol {
+			padding-left: 3px;
 		}
 	}
 	.aside--versions,
@@ -348,6 +383,7 @@ a {
 	color: $dark-links;
 	text-decoration: none;
 	padding-bottom: 1px;
+	transition: .2s;
 	&:hover {
 		color: darken($dark-links, 10%);
 	}
@@ -365,6 +401,7 @@ a {
 		border-radius: 3px;
 		color: $light-links;
 		outline: none;
+		transition: .2s;
 		&:hover {
 			color: $light-links;
 			background: darken($dark-links, 10%);
@@ -380,7 +417,7 @@ a {
 svg {
 	width: 20px;
 	height: 20px;
-	fill: $dark-text;
+	fill: $light-links;
 }
 	.search-form .octicon {
 		position: absolute;
@@ -415,7 +452,7 @@ fieldset {
 		position: absolute;
 		z-index: 0;
 		color: $light-text;
-		line-height: 26px;
+		line-height: 24px;
 	}
 	.search-input {
 		position: relative;
@@ -491,9 +528,10 @@ fieldset {
 		}
 	}
 
-	.feature-card {
+	.container .feature-card {
 		width: 100%;
 		min-height: inherit;
+		border: none;
 	}
 
 	// Navigation toggle

@@ -23,13 +23,13 @@ A template can be created around one or more colour swatches. There are 7 colour
 
 {% highlight css %}
 /* Colour Swatch Variables related to the colour swatches within the editor */
-@color-swatch1
-@color-swatch2
-@color-swatch3
-@color-swatch4
-@color-swatch5
-@color-swatch6
-@color-swatch7
+@color-swatch1 /* Background */
+@color-swatch2 /* Contrast colour */
+@color-swatch3 /* Button colour */
+@color-swatch4 /* Title colour */
+@color-swatch5 /* Paragraph colour */
+@color-swatch6 /* Nav text colour */
+@color-swatch7 /* Header background colour */
 {% endhighlight %}
 
 ### Background Style Variables

@@ -71,4 +71,4 @@ These are additional options that can be set by the template developer, however 
   * ```center```
   * ```right```
 
-Please note that the Editor does not provide all the options listed above, some are limited to a select common set of values.
+> Please note that the Editor does not provide all the options listed above, some are limited to a select common set of values.

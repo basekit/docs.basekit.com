@@ -62,9 +62,9 @@ The Documentation uses markdown to manage it's content. It also uses pygments fo
 ```
 {% highlight html %}
 {% raw %}
-  <div class="element">
-    <span>This is some sample HTML</span>
-  </div>
+<div class="element">
+  <span>This is some sample HTML</span>
+</div>
 {% endraw %}
 {% endhighlight %}
 ```
@@ -77,6 +77,9 @@ The Documentation uses markdown to manage it's content. It also uses pygments fo
 
 ### Centralised Button
 ```{% include buttoncenter.html link="http://docs.basekit.com" text="This button is centre aligned" %}```
+
+### Call To Action
+```> **IMPORTANT**: This is a breaking change.```
 
 License
 -------

@@ -13,7 +13,7 @@ versions:
 
 This widget is only compatible with Editor **version 7.32 and above**.
 
-**IMPORTANT**: This widget will only work as expected in the ```blogpost.twig``` page type. Otherwise the engine will fallback to ```default.twig```.
+> **IMPORTANT**: This widget will only work as expected in the ```blogpost.twig``` page type. Otherwise the engine will fallback to ```default.twig```.
 
 ## Examples
 
