@@ -510,9 +510,10 @@ fieldset {
 		}
 	}
 
-	.feature-card {
+	.container .feature-card {
 		width: 100%;
 		min-height: inherit;
+		border: none;
 	}
 
 	// Navigation toggle

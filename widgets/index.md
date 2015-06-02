@@ -102,3 +102,17 @@ Below is a basic example of defining a Template Widget within a template file, a
 {% endhighlight %}
 
 Despite that all Zone Widgets are all available to use as Template Widgets, there are a certain amount that can only be used within the Template. Widgets such as [Logo](/widgets/v2/logo/), [Extended Navigation](/widgets/v2/extended-navigation/), and [Feature](/widgets/v2/feature/) are designed to be part of the template structure. This means the user is limited to editing or hiding them.
+
+## Hiding Template Widgets
+
+In some cases, it's required for a widget to exist in a template but not be visible by default (e.g. an option to add a logo that doesn't have a default image). Hiding the widget can be done by adding the following:
+
+{% highlight django %}
+{% raw %}
+
+{{widget('logo', 'examplewidget', {
+  "showTplWidget":"0"
+})|raw}}
+
+{% endraw %}
+{% endhighlight %}
