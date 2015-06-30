@@ -10,7 +10,7 @@ You'll need the following before you start working on a template:
 1. ## Access to the Editor
   * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#a-code-editor).
   * If you already have an account but are not logged in, do so now.
-  * Don't have an account? Head to our [developer homepage](http://www.basekit.com/developers) to find a partner to sign up with.
+  * Don't have an account? Head to our [developer homepage](http://www.basekit.com/our-partners) to find a partner to sign up with.
 
 2. ## A code editor 
    In order to start developing a template, you'll need to download a code editor of your choice. <br/> We recommend using:
