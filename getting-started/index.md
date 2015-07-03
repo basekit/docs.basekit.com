@@ -21,3 +21,5 @@ You'll need the following before you start working on a template:
 
 4. ## Want to use your own editor?
    No problem! BaseKit has built an offline Template Viewer that you can run on your local machine. Simply follow the instructions on this page: [Build templates on your local machine](http://docs.basekit.com/getting-started/local-development/).
+
+{% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}

@@ -18,7 +18,11 @@ Once you've picked your chosen template you'll be wanting to get hold of the cod
 
 {% include imagecenter.html image="/assets/content/getting-started/template-tab.png" alt="template tab" %}
 
-A menu will appear on the right of the template panel. Click on the Download current template button to download our developer-friendly zip file. 
+The code editor will appear. At the top of the code panel you will see a settings cog. Click this to reveal the settings menu. 
+
+{% include imagecenter.html image="/assets/content/getting-started/open-settings.png" alt="developer panel settings menu icon" %}
+
+A menu will appear on the right of the template panel. Click on the Download template link to download our developer-friendly zip file. 
 
 {% include imagecenter.html image="/assets/content/getting-started/download-template.png" alt="download template" %}
 
