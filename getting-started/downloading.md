@@ -60,7 +60,7 @@ You should be taken back to the main menu in the MAMP window. Click **Start Serv
 
 Once green, MAMP will automatically open up a web browser to give you information on your hostname and port number. Now search for **localhost** or **localhost:[insert port number here]** in your web browser.
 
-**Note:** You may have problems finding your localhost if your server isn’t green. 
+> **Note:** You may have problems finding your localhost if your server isn’t green. 
 
 ## The Template Viewer
 
