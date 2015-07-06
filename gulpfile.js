@@ -36,6 +36,7 @@ gulp.task('css', function() {
 
 });
 
+
 // SASS components task
 gulp.task('sass', function() {
 
@@ -54,19 +55,6 @@ gulp.task('sass', function() {
 	gulp.task('styles', ['css', 'sass'])
 
 
-// JavaScript components task
-gulp.task('js', function() {
-
-	mainfiles.push('_scripts/*.js')
-
-	return gulp.src(mainfiles)
-
-		.pipe(jsfilter)
-		.pipe(uglify())
-		.pipe(gulp.dest('js'))
-
-});
-
 // SVG icons task
 gulp.task('svg', function () {
 
@@ -82,6 +70,7 @@ gulp.task('svg', function () {
 
 });
 
+
 // PNG icons task
 gulp.task('png', function () {
 
@@ -92,6 +81,7 @@ gulp.task('png', function () {
 		.pipe(gulp.dest('assets/icons'))
 
 });
+
 
 // Octicons icon fonts
 gulp.task('fonticons', function() {
