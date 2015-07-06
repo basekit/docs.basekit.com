@@ -356,6 +356,20 @@ body {
 			}
 		}
 	}
+
+	// Breadcrumb navigation
+	ol.beadcrumb-list {
+		list-style: none;
+		margin-bottom: 2em;
+		padding: .3em 0 1.35em;
+		font-size: 0.9em;
+		border-bottom: 1px solid $light-border;
+	}
+	.breadcrumb-item {
+		display: inline;
+		a { text-transform: capitalize; }
+	}
+
 		// Mobile toggle
 		.toggle-button {
 			display: none;
@@ -430,7 +444,7 @@ a {
 	.edit {
 		opacity: 0.75;
 		position: absolute;
-		top: 15px;
+		top: 1.2em;
 		right: 0;
 	}
 

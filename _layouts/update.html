@@ -24,6 +24,8 @@ layout: default
 
 	<article class="article  article--content">
 
+		{% include breadcrumb.html %}
+
 		{{ content }}
 
 		<time class="time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
