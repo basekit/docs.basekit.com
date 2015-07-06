@@ -72,8 +72,7 @@ BaseKit templates can be deployed to multiple environments, so we refer to a fil
 
 For example, to reference logo.png in the images directory:
 
-In ```*.less``` files you use the ```image()``` function
-
+In `*.less` files you use the `image()` function:
 {% highlight css %}
 {% raw %}
 
@@ -82,10 +81,9 @@ In ```*.less``` files you use the ```image()``` function
 {% endraw %}
 {% endhighlight %}
 
-NOTE: You can reference images in LESS files.
-
 In *.twig files you use the asset() function.
 
+You can also reference other files types within *twig and (as of version 7.53) *.less files:
 {% highlight html %}
 {% raw %}
 
@@ -97,6 +95,25 @@ In *.twig files you use the asset() function.
 
 <!-- JavaScript asset -->
 <script src="{{asset('js/scripts.js')}}" type="text/javascript"></script>
+
+{% endraw %}
+{% endhighlight %}
+
+> **IMPORTANT:** Using the `asset()` function in `*.less` files is only available in **version 7.53 and above**.
+
+{% highlight css %}
+{% raw %}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('asset(fonts/fontawesome-webfont.eot)');
+  src: url('asset(fonts/fontawesome-webfont.eot)') format('embedded-opentype'),
+    url('asset(fonts/fontawesome-webfont.woff)') format('woff'),
+    url('asset(fonts/fontawesome-webfont.ttf)') format('truetype'),
+    url('asset(fonts/fontawesome-webfont.svg)#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 {% endraw %}
 {% endhighlight %}
