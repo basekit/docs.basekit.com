@@ -8,7 +8,7 @@ title: Local Development
 BaseKit's Local Template Viewer enables you to use your own code editor and tools of choice. Follow these instructions to start developing templates locally.
 
 1. ## Sign up for a BaseKit account
-  * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#a-code-editor).
+  * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#download-a-code-editor).
   * If you already have an account but are not logged in, do so now.
   * Don't have an account? Head to our [developer partner page](http://www.basekit.com/our-partners) to find a partner to sign up with.
 
@@ -28,7 +28,7 @@ BaseKit's Local Template Viewer enables you to use your own code editor and tool
    For more detailed information on code editors, and help choosing which ones to use, check out this article(http://blog.teamtreehouse.com/which-text-editor-should-i-use) from Treehouse.
 
 3. ## Install a local web server application
-   In order to run our local Template Viewer you'll need to download a local web server application. If you already have a stand-alone web server application installed, [head to step 4](#access-to-the-local-template-viewer). <br/> We recommend using:
+   In order to run our local Template Viewer you'll need to download a local web server application. If you already have a stand-alone web server application installed, [head to step 4](#download-the-local-template-viewer). <br/> We recommend using:
    * [Mamp for Mac OS X](http://www.mamp.info/en/downloads/)
    * [Mamp for Windows](http://www.mamp.info/en/mamp_windows.html)
 
