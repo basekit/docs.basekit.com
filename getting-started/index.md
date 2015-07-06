@@ -13,13 +13,14 @@ You'll need the following before you start working on a template:
   * Don't have an account? Head to our [developer partner page](http://www.basekit.com/our-partners) to find a partner to sign up with.
 
 2. ## Enable Developer Mode 
-   To do this, simply click the `Developer` tab in the Editor. 
-   By accepting the terms and conditions you understand you need a good knowledge of HTML and CSS to be able to use this feature.
+   To do this, simply click the **Developer** tab in the editor. 
+   By accepting the terms and conditions you are confirming you have a good knowledge of HTML and CSS, as you will not be able to use this feature without these skills.
 
-3. ## Start coding!
-   The code editor will appear. You can start editing your template's files via this editor. Once you have completed the changes to the file, click Save. 
+3. ## Editing code
+   When opening the **Developer** tab the code editor will appear. You can start editing your template's files via this editor. Once you have completed your changes, click Save. Your site will reload and your changes will be visable.
 
-4. ## Want to use your own editor?
-   No problem! BaseKit has built an offline Template Viewer that you can run on your local machine. Simply follow the instructions on this page: [Build templates on your local machine](/getting-started/local-development/).
+### Developing Locally
+
+BaseKit has built an offline Template Viewer to run on your local machine. Simply follow the instructions on this page: [Building templates on your local machine](/getting-started/local-development/).
 
 {% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}
