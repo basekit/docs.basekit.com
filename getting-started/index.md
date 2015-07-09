@@ -21,7 +21,10 @@ You'll need the following before you start working on a template:
 
 {% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}
 
-### Developing Locally
+---
 
-BaseKit has built an offline Template Viewer to run on your local machine. Simply follow the instructions on this page: [Building templates on your local machine](/getting-started/local-development/).
+## Developing Locally
 
+BaseKit has built an offline Template Viewer to run on your local machine. Simply follow the instructions on this page: **[Building templates on your local machine](/getting-started/local-development/)**.
+
+{% include imagecenter.html image="/assets/content/getting-started/tdk.png" alt="BaseKit Code Editor" %}
