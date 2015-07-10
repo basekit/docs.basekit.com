@@ -7,22 +7,26 @@ title: Downloading a Template
 
 What you'll need to download a template:
 
-* A local web server application (for example [MAMP for Mac OS X or Windows](/getting-started/#a-local-web-server-application))
-* The [Local template Viewer](/getting-started/#access-to-the-local-template-viewer)
+* A local web server application (for example [MAMP for Mac OS X or Windows](/getting-started/local-development/#install-a-local-web-server-application))
+* The [Local Template Viewer](/getting-started/local-development/#download-the-local-template-viewer)
 
 Read our [Getting Started](/getting-started/) document for more information.
 
 ## Download the zip file
 
-Once you've picked your chosen template you'll be wanting to get hold of the code. Click on the template panel on the left hand side of The Editor interface:
+To access the code of your chosen template, open the **Developer** tab:
 
 {% include imagecenter.html image="/assets/content/getting-started/template-tab.png" alt="template tab" %}
 
-A menu will appear on the right of the template panel. Click on the Download current template button to download our developer-friendly zip file. 
+The code editor will appear. At the top of the code editor panel you will see a settings cog. Click this to reveal the settings menu. 
+
+{% include imagecenter.html image="/assets/content/getting-started/open-settings.png" alt="developer panel settings menu icon" %}
+
+A menu will appear on the right of the template panel. Click on the **Download template** link to download the zip file. 
 
 {% include imagecenter.html image="/assets/content/getting-started/download-template.png" alt="download template" %}
 
-Once our zip file has downloaded feel free to have a little look at what's in there. Each file will of course be different for each template but you should have the following basics:
+Once downloaded, you'll be able to open the file and see the following basics:
 
 * ```stylesheet.less```: this is where you'll add your styles using CSS or LESS for example
 
@@ -34,7 +38,7 @@ Once our zip file has downloaded feel free to have a little look at what's in th
 
 ## Using a local server
 
-Now you will need the Local Template Viewer. You will now need to put the template zip file you downloaded into the Template Viewer folder and then into the folder named 'templates'.
+Now you will need the Local Template Viewer. The zip file you downloaded will need to be placed into the Template Viewer folder and then into the folder named 'templates'.
 
 See the example below using our [June](https://github.com/basekit-templates/june) template:
 
@@ -52,7 +56,7 @@ The preferences window will open with numerous tabs. Click on the Web Server or 
 
 {% include imagecenter.html image="/assets/content/getting-started/mamp-server-options.png" alt="server options" %}
 
-Click the grey folder icon next to "Document Root", and then select the ```public``` folder inside the TDK download. Click OK to confirm your changes.
+Click the grey folder icon next to "Document Root", and then select the ```public``` folder inside the Template Viewer folder. Click OK to confirm your changes.
 
 You should be taken back to the main menu in the MAMP window. Click **Start Servers**. Once loaded, the symbol will turn green:
 
@@ -64,7 +68,7 @@ Once green, MAMP will automatically open up a web browser to give you informatio
 
 ## The Template Viewer
 
-Once you have found your localhost, a page similar to the one below will appear. (Again we have used template [June](https://github.com/basekit-templates/june) as an example.)
+Once you have found your localhost, a page similar to the one below will appear. (Again we have used the template [June](https://github.com/basekit-templates/june) as an example.)
 
 {% include imagecenter.html image="/assets/content/getting-started/tdk-templates.png" alt="TDK templates" %}
 
