@@ -17,7 +17,7 @@ You'll need the following before you start working on a template:
    By accepting the terms and conditions you are confirming you have a good knowledge of HTML and CSS, as you will not be able to use this feature without these skills.
 
 3. ## Editing code
-   When opening the **Developer** tab the code editor will appear. You can start editing your template's files via this editor. Once you have completed your changes, click Save. Your site will reload and your changes will be visable.
+   When opening the **Developer** tab the code editor will appear. You can start editing your template's files via this editor. Once you have completed your changes, click Save. Your site will reload and your changes will be visible.
 
 {% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}
 

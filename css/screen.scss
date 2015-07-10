@@ -77,8 +77,21 @@ body {
 		p {
 			margin-top: 0.3em;
 		}
-		> p, > ul, > ol, > blockquote, ol > li, .highlight {
+		> p,
+		> ul,
+		> ol,
+		> blockquote,
+		ol > li,
+		.highlight,
+		.image {
 			margin-bottom: 2.6em;
+		}
+		p, ol, ul {
+			& + .highlight,
+			& + .image,
+			& + blockquote {
+				margin-top: -2em;
+			}
 		}
 	}
 
@@ -425,7 +438,7 @@ a {
 	button {
 		background: $dark-links;
 		border: none;
-		padding: 7px 11px 7px;
+		padding: 7px 11px 8px;
 		border-radius: 3px;
 		color: $light-links;
 		outline: none;
