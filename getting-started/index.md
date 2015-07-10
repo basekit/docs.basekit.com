@@ -25,6 +25,6 @@ You'll need the following before you start working on a template:
 
 ## Developing Locally
 
-BaseKit has built an offline Template Viewer to run on your local machine. Simply follow the instructions on this page: **[Building templates on your local machine](/getting-started/local-development/)**.
+BaseKit has built the **Template Development Kit**, which allows you to view and run templates on your own machine. Simply follow the instructions on this page: **[Building templates on your local machine](/getting-started/local-development/)**.
 
 {% include imagecenter.html image="/assets/content/getting-started/tdk.png" alt="BaseKit Code Editor" %}

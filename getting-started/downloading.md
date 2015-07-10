@@ -8,7 +8,7 @@ title: Downloading a Template
 What you'll need to download a template:
 
 * A local web server application (for example [MAMP for Mac OS X or Windows](/getting-started/local-development/#install-a-local-web-server-application))
-* The [Local Template Viewer](/getting-started/local-development/#download-the-local-template-viewer)
+* The [Template Development Kit](/getting-started/local-development/#download-the-template-development-kit)
 
 Read our [Getting Started](/getting-started/) document for more information.
 

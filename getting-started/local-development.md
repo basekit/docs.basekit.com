@@ -5,7 +5,7 @@ title: Local Development
 
 # Local Development
 
-BaseKit's Local Template Viewer enables you to use your own code editor and tools of choice. Follow these instructions to start developing templates locally.
+BaseKit's Template Development Kit enables you to use your own code editor and tools of choice. Follow these instructions to start developing templates locally.
 
 1. ## Sign up for a BaseKit account
   * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#download-a-code-editor).
@@ -28,7 +28,7 @@ BaseKit's Local Template Viewer enables you to use your own code editor and tool
    For more detailed information on code editors, and help choosing which ones to use, check out this article(http://blog.teamtreehouse.com/which-text-editor-should-i-use) from Treehouse.
 
 3. ## Install a local web server application
-   In order to run our local Template Viewer you'll need to download a local web server application. If you already have a stand-alone web server application installed, [head to step 4](#download-the-local-template-viewer). <br/> We recommend using:
+   In order to run our Template Development Kit you'll need to download a local web server application. If you already have a stand-alone web server application installed, [head to step 4](#download-the-template-development-kit). <br/> We recommend using:
    * [Mamp for Mac OS X](http://www.mamp.info/en/downloads/)
    * [Mamp for Windows](http://www.mamp.info/en/mamp_windows.html)
 
@@ -40,8 +40,8 @@ BaseKit's Local Template Viewer enables you to use your own code editor and tool
    * You can work on your site without worrying about having an internet connection.
    * It saves you time. Think of it like a live web server, only now you can work on your own machine without having to constantly upload and download files. A local server finds your content locally (from your hard drive), requiring no waiting for uploading and downloading. 
 
-4. ## Download the Local Template Viewer
-   [ Download the Template Viewer](http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip) and unzip it. We recommend creating a new folder at the root of your machine, something like 'Sites' next to your Documents folder.
+4. ## Download the Template Development Kit
+   [ Download the Template Development Kit](http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip) and unzip it. We recommend creating a new folder at the root of your machine, something like 'Sites' next to your Documents folder.
 
    {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip" text="Download Current Stable Version" icon="cloud-download" %} (stable)
 
