@@ -30,8 +30,8 @@ $twig-colour: #DFEA95;
 body {
 	color: $dark-text;
 	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 15.5px;
+	line-height: 1.9em;
 	background: $dark-background;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -52,7 +52,7 @@ body {
 }
 	// BK logo
 	.logo {
-		margin-top: 16px;
+		margin-top: 1em;
 		display: inline-block;
 	}
 
@@ -68,7 +68,8 @@ body {
 	}
 }
 	// In-page content
-	.main--content {
+	.main--content,
+	.article--content {
 		position: relative;
 		padding: 15px 0 20px;
 		h1 {
@@ -76,6 +77,22 @@ body {
 		}
 		p {
 			margin-top: 0.3em;
+		}
+		> p,
+		> ul,
+		> ol,
+		> blockquote,
+		ol > li,
+		.highlight,
+		.image {
+			margin-bottom: 2.6em;
+		}
+		p, ol, ul {
+			& + .highlight,
+			& + .image,
+			& + blockquote {
+				margin-top: -2em;
+			}
 		}
 	}
 
@@ -88,11 +105,7 @@ body {
 
 	h3, legend {
 		font-weight: bold;
-		font-size: 16px;
-	}
-
-	p {
-		line-height: 26px;
+		font-size: 1.2em;
 	}
 
 	hr {
@@ -194,9 +207,9 @@ body {
 
 	// Tables
 	table {
-		font-size: 10.5px;
+		font-size: 0.7em;
 		text-align: left;
-		letter-spacing: -.2px;
+		letter-spacing: -0.05em;
 		width: 100%;
 	}
 	th, td {
@@ -217,7 +230,7 @@ body {
 .main--feature {
 	padding-bottom: 60px;
 	.octicon {
-		font-size: 24px;
+		font-size: 1.25em;
 	}
 }
 	// Feature header
@@ -236,8 +249,8 @@ body {
 			line-height: 34px;
 		}
 		.search-form {
-			font-size: 20px;
-			line-height: 34px;
+			font-size: 1.3em;
+			line-height: 1.8em;
 			border: 1px solid $dark-links;
 			max-width: 880px;
 		}
@@ -270,7 +283,12 @@ body {
 			min-height: 60px;
 		}
 		.octicon {
-			font-size: 44px;
+			font-size: 3em;
+		}
+		p {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 	}
 
@@ -296,6 +314,9 @@ body {
 	border-color: $light-border;
 	border-style: solid;
 	border-width: 0;
+
+	font-size: 0.9em;
+	line-height: 1.8em;
 	h3 {
 		margin-top: 0;
 	}
@@ -321,6 +342,9 @@ body {
 		ol {
 			padding-left: 3px;
 		}
+		h4 {
+			margin-top: 0;
+		}
 	}
 	.aside--versions,
 	.aside--search {
@@ -332,6 +356,9 @@ body {
 	.nav--footer {
 		text-align: right;
 		color: $light-text;
+
+		font-size: 0.9em;
+		line-height: 1.8em;
 		a {
 			color: $light-links;
 			margin-left: 10px;
@@ -343,6 +370,20 @@ body {
 			}
 		}
 	}
+
+	// Breadcrumb navigation
+	ol.beadcrumb-list {
+		list-style: none;
+		margin-bottom: 2em;
+		padding: .3em 0 1.35em;
+		font-size: 0.9em;
+		border-bottom: 1px solid $light-border;
+	}
+	.breadcrumb-item {
+		display: inline;
+		a { text-transform: capitalize; }
+	}
+
 		// Mobile toggle
 		.toggle-button {
 			display: none;
@@ -398,7 +439,7 @@ a {
 	button {
 		background: $dark-links;
 		border: none;
-		padding: 7px 11px 7px;
+		padding: 7px 11px 8px;
 		border-radius: 3px;
 		color: $light-links;
 		outline: none;
@@ -417,7 +458,7 @@ a {
 	.edit {
 		opacity: 0.75;
 		position: absolute;
-		top: 15px;
+		top: 1.2em;
 		right: 0;
 	}
 
@@ -429,14 +470,18 @@ svg {
 }
 	.search-form .octicon {
 		position: absolute;
+		font-size: 1.12em;
 		z-index: 2;
 		right: .2em;
-		top: .3em;
+		top: .36em;
 		padding: 4px;
 		cursor: pointer;
 		@include linearGradient(rgba($light-background, 0), $light-background);
 	}
 
+	.ociticon {
+		font-size: 1em;
+	}
 
 // Forms
 fieldset {
@@ -461,7 +506,7 @@ fieldset {
 		position: absolute;
 		z-index: 0;
 		color: $light-text;
-		line-height: 24px;
+		line-height: 1.75em;
 	}
 	.search-input {
 		position: relative;
@@ -523,6 +568,12 @@ fieldset {
 
 	.search-form {
 		display: inline-block;
+	}
+
+	// Feature cards
+	.feature-card p {
+		white-space: normal;
+		overflow: auto;
 	}
 
 	// Main content

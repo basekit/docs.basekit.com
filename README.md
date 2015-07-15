@@ -39,13 +39,11 @@ Gulp Tasks
 These are tasks that can be ran with gulp, all of which take the installed bower components and place them into the relevant project directories:
 
 * ```$ gulp``` - Processes all assets for the project
-
+  
   * ```$ gulp styles``` - Copies all style files into ```_sass``` directory
   
     * ```$ gulp css``` - Converts CSS assets into SCSS and copies it into the ```_sass``` directory
     * ```$ gulp sass``` - Copies SCSS assets into the ```_sass``` directory
-  
-  * ```$ gulp js``` - Copies and Minifies JavaScript into the ```js``` directory
   
   * ```$ gulp icons``` - Prepares SVG and PNG icons
   

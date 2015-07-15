@@ -13,7 +13,7 @@ Welcome to the Template Viewer/TDK where you can view your template on your loca
 
 ## Your code editor 
 
-Use your [code editor](/getting-started/#a-code-editor) of choice to open your chosen template. In our example below we are using [Sublime Text](http://www.sublimetext.com/3) editor:
+Use your [code editor](/getting-started/local-development/#download-a-code-editor) of choice to open your chosen template. In our example below we are using [Sublime Text](http://www.sublimetext.com/3) editor:
 
 {% include imagecenter.html image="/assets/content/getting-started/sublime.png" alt="Sublime Text" %}
 

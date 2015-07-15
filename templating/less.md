@@ -156,7 +156,7 @@ This means we need to inject a path pointing to the LESS file:
 
 #### templateCommon
 
-The ```"@{templateCommon}"``` variable will be replaced with a path pointing to the Template Viewer common template resources directory, where you can reference files such as ```basekit-bootstrap.less```.
+The ```"@{templateCommon}"``` variable will be replaced with a path pointing to the Template Development Kit common template resources directory, where you can reference files such as ```basekit-bootstrap.less```.
 
 #### templateLocal
 
