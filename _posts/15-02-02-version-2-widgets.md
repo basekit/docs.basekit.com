@@ -1,6 +1,8 @@
 ---
 layout: update
+type: post
 title: "Version 2 Widget Documentation"
+excerpt: "The widget documentation has been updated to show version 2 of our widgets"
 ---
 
 # Version 2 Widget Documentation

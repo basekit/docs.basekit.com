@@ -68,7 +68,8 @@ body {
 	}
 }
 	// In-page content
-	.main--content {
+	.main--content,
+	.article--content {
 		position: relative;
 		padding: 15px 0 20px;
 		h1 {
