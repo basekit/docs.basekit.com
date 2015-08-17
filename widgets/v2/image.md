@@ -18,6 +18,7 @@ The image widget is a simple method of adding an image to a page with optional t
 By default, the image widget must have a ```src``` option that is an image from the template. All other options are not essential.
 
 ### Basic usage
+
 {% highlight django %}
 {% raw %}
 

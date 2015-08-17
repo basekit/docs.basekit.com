@@ -13,7 +13,9 @@ versions:
 
 The tweet button widget allows the option to post the currently viewed page to Twitter along with a message.
 
-## Basic usage
+## Examples
+
+### Basic usage
 
 {% highlight django %}
 {% raw %}
@@ -25,7 +27,7 @@ The tweet button widget allows the option to post the currently viewed page to T
 
 By default the text in the button is empty, so it's advised that you add text using the ```linkText``` option.
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}

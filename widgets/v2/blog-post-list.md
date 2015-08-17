@@ -13,7 +13,9 @@ versions:
 
 This widget is only compatible with Editor **version 7.32 and above**.
 
-**This widget will only work if the blog plugin is activated on the user account.** This widget will only work as expected in the ```blogpost.twig``` [page type](/templating/page-types/). Otherwise the engine will fallback to ```default.twig```. This widget will add a list of widgets to the page. The widget will feed off [plugin data](/data/) to populate itself.
+> **IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account.
+
+This widget will only work as expected in the ```blogpost.twig``` [page type](/templating/page-types/). Otherwise the engine will fallback to ```default.twig```. This widget will add a list of widgets to the page. The widget will feed off [plugin data](/data/) to populate itself.
 
 ## Examples
 

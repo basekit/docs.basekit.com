@@ -17,9 +17,9 @@ You can add a contact form widget to your template to allow the visitor to send 
 
 ## Examples
 
-To include a contact form widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a contact form widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}

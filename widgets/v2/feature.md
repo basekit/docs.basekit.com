@@ -47,7 +47,6 @@ By default the feature widget will only show the title and strapline, which will
 {% endraw %}
 {% endhighlight %}
 
-
 #### Resulting HTML:
 
 {% highlight html %}

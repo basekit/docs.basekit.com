@@ -13,7 +13,10 @@ versions:
 
 Like the logo widget, the extended navigation widget is a template widget and cannot be dragging in via the Editor. The only option available when developing a template is the alignment. All other options and setting related to the extended navigation widget is done in the Editor.
 
-## Basic usage
+
+## Examples 
+
+### Basic usage
 
 {% highlight django %}
 {% raw %}
@@ -23,7 +26,7 @@ Like the logo widget, the extended navigation widget is a template widget and ca
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
 
 Setting the alignment of the navigation can be done so by setting the ```align``` option, as done so below:
 

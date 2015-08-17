@@ -17,9 +17,9 @@ You can add a LinkedIn personal profile widget to your template. This profile UR
 
 ## Examples
 
-To include a LinkedIn profile widget in your template you will need to add the following line:
+### Basic usage
 
-## Basic usage
+To include a LinkedIn profile widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}
@@ -29,7 +29,7 @@ To include a LinkedIn profile widget in your template you will need to add the f
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}

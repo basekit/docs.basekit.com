@@ -18,6 +18,7 @@ This widget is only compatible with Editor **version 7.32 and above**.
 ## Examples
 
 ### Example usage
+
 {% highlight django %}
 {% raw %}
 

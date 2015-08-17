@@ -17,9 +17,9 @@ You can add a Twitter feed widget to your template. The feed source can be chang
 
 ## Examples
 
-To include a Twitter feed widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a Twitter feed widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}
@@ -28,7 +28,6 @@ To include a Twitter feed widget in your template you will need to add the follo
 
 {% endraw %}
 {% endhighlight %}
-
 
 ### Example usage
 

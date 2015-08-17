@@ -13,7 +13,9 @@ versions:
 
 Much in the same way the [gallery widget](/widgets/v2/gallery/) works, the slideshow widget allows the user to display a selection or group of images that have been uploaded to the Images section of the Editor. By default the slideshow comes with no images, the user must select them when they select the widget. If you are using the slideshow as part of your template you can state the images that are shown.
 
-## Basic usage
+## Examples
+
+### Basic usage
 
 {% highlight django %}
 {% raw %}
@@ -25,7 +27,7 @@ Much in the same way the [gallery widget](/widgets/v2/gallery/) works, the slide
 
 The above example will display an area in the template where the user can select and then add images to, it will not show any images by default.
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}
@@ -65,7 +67,6 @@ The above example will display an area in the template where the user can select
 
 {% endraw %}
 {% endhighlight %}
-
 
 #### Resulting HTML:
 

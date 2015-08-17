@@ -14,7 +14,10 @@ versions:
 The space widget is designed to allow the user to control spaces between pieces of content and sections within their website. They are limited to one variable, height.
 
 
-## Example
+## Examples
+
+### Basic usage
+
 {% highlight django %}
 {% raw %}
 

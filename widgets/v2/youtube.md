@@ -17,9 +17,9 @@ You can add YouTube videos to your template. The videos can be later customised 
 
 ## Examples
 
-To include a video in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a video in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}
