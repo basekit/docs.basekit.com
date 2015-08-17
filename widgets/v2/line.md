@@ -14,9 +14,11 @@ versions:
 The line widget is a horizontal rule that the user can drop in and edit to suit their site design or content. It can be used to divide blocks of content or sections of the site design.
 
 ## Examples
+
 Using a line widget in your template means the user can control the line's thickness, length and spacing.
 
 ### Basic usage
+
 {% highlight django %}
 {% raw %}
 
@@ -28,6 +30,7 @@ Using a line widget in your template means the user can control the line's thick
 The above example has an ID of ```footerline```, which will mean any line widget with this ID will use the same properties.
 
 ### Example usage
+
 {% highlight django %}
 {% raw %}
 

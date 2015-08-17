@@ -17,9 +17,9 @@ You can add a social icons widget to your template. This widget will display ico
 
 ## Examples
 
-To include a social icons widget in your template you will need to add the following line:
+### Basic usage
 
-## Basic usage
+To include a social icons widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}
@@ -29,7 +29,7 @@ To include a social icons widget in your template you will need to add the follo
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}

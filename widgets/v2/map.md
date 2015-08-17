@@ -17,9 +17,9 @@ You can add a map widget to your template. The map address can be changed later 
 
 ## Examples
 
-To include a map widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a map widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}

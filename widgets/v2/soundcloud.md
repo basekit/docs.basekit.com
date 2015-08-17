@@ -17,9 +17,9 @@ You can add a SoundCloud widget to your template. The audio can be later customi
 
 ## Examples
 
-To include a SoundCloud widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a SoundCloud widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}

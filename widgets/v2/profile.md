@@ -17,9 +17,9 @@ You can add a profile widget to your template. The profile widget contains 11 ty
 
 ## Examples
 
-To include a profile widget in your template you will need to add the following example lines:
-
 ### Example usage
+
+To include a profile widget in your template you will need to add the following example lines:
 
 {% highlight django %}
 {% raw %}

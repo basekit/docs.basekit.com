@@ -13,7 +13,10 @@ versions:
 
 The button widget is capable of showing a simple button on a web page, this can be added within the Editor and by adding it into the template.
 
-## Basic usage
+## Examples
+
+### Basic usage
+
 {% highlight django %}
 {% raw %}
 
@@ -22,7 +25,8 @@ The button widget is capable of showing a simple button on a web page, this can 
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
+
 {% highlight django %}
 {% raw %}
 
@@ -38,6 +42,7 @@ The button widget is capable of showing a simple button on a web page, this can 
 {% endhighlight %}
 
 #### Resulting HTML:
+
 {% highlight html %}
 {% raw %}
 

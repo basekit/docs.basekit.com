@@ -17,9 +17,9 @@ You can add a LinkedIn company profile widget to your template. This profile URL
 
 ## Examples
 
-To include a LinkedIn profile widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a LinkedIn profile widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}

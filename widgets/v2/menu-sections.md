@@ -13,11 +13,13 @@ versions:
 
 This widget is only compatible with Editor **version 7.32 and above**.
 
-> **IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account. This works in conjunction with the [menu](/widgets/v2/menu/) widget. This widget will show a list of menu section links. When this link is clicked it will navigate to the relevant sections in the menu.
+> **IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account.
+
+This works in conjunction with the [menu](/widgets/v2/menu/) widget. This widget will show a list of menu section links. When this link is clicked it will navigate to the relevant sections in the menu.
 
 ## Examples
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}

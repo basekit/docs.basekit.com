@@ -13,7 +13,9 @@ versions:
 
 The click to call widget has similar properties to the [button widget](/widgets/v2/button-widget/) but links directly to the phone number that has been added into the profile settings. This provides a direct way for a user to call the company, either via mobile web viewing or from a desktop calling application such as Skype. The widget uses the phone number from the profile section as a default for the link and the text in the link. These can be both changed via the Editor.
 
-## Basic usage
+## Examples
+
+### Basic usage
 
 {% highlight django %}
 {% raw %}
@@ -23,7 +25,7 @@ The click to call widget has similar properties to the [button widget](/widgets/
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
 
 {% highlight django %}
 {% raw %}

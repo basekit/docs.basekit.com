@@ -90,6 +90,8 @@ navdocs:
     url:
   - title: Logo
     url: /widgets/v2/logo/
+  - title: Company Name
+    url: /widgets/v2/company-name/
   - title: Extended Navigation
     url: /widgets/v2/extended-navigation/
   - title: Feature

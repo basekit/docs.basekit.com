@@ -16,9 +16,11 @@ Add a Facebook Like widget to your template.
 You can add a Facebook Like widget to your template. The widget can be later customised within the Editor.
 
 ## Examples
+
+### Basic usage
+
 To include a Facebook Like widget in your template you will need to add the following line:
 
-## Basic usage
 {% highlight django %}
 {% raw %}
 
@@ -27,7 +29,8 @@ To include a Facebook Like widget in your template you will need to add the foll
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
+
 {% highlight django %}
 {% raw %}
 

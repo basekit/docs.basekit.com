@@ -17,9 +17,9 @@ You can add a Yelp review widget to your template. The Yelp business ID can be c
 
 ## Examples
 
-To include a Yelp widget in your template you will need to add the following line:
-
 ### Basic usage
+
+To include a Yelp widget in your template you will need to add the following line:
 
 {% highlight django %}
 {% raw %}

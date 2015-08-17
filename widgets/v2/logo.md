@@ -15,7 +15,9 @@ The logo widget is classed as a template widget, which means it is designed to o
 
 The logo can either be changed directly in the visual Editor or by navigating to Manage > Profile. Images can either be chosen from the Images panel or by uploading an image.
 
-## Basic usage
+## Examples
+
+### Basic usage
 
 {% highlight django %}
 {% raw %}
@@ -25,7 +27,7 @@ The logo can either be changed directly in the visual Editor or by navigating to
 {% endraw %}
 {% endhighlight %}
 
-## Example usage
+### Example usage
 
 The logo widget only has one option of a default logo, which is set with ```defaultlogo``` as shown in the below example:
 

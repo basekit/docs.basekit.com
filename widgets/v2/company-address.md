@@ -19,7 +19,7 @@ You can add a company address widget to your template which contains the company
 
 To include a company address widget in your template you will need to add the following line:
 
-## Basic usage
+### Basic usage
 
 {% highlight django %}
 {% raw %}
