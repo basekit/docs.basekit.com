@@ -22,6 +22,7 @@ All templates must contain a ```metadata.json``` file. This file provides key in
 {
   "name": "example",
   "thumbnail": "example.png",
+  "widgetVersion":2,
   "pageTypes": [
     "home", "about", "contact", "gallery"
   ]
@@ -214,8 +215,10 @@ h1 {
 {% highlight json %}
 
 {
-  "name": "Pearl",
-  "screenshot": "pearl.jpg",
+  "name": "Example",
+  "screenshot": "example-screenshot.jpg",
+  "thumbnail": "example.png",
+  "widgetVersion":2,
   "pageTypes": ["home, about, contact, gallery"],
   "colorSwatches": {
     "Funky Named": {
