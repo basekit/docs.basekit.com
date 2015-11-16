@@ -55,6 +55,16 @@ gulp.task('sass', function() {
 	gulp.task('styles', ['css', 'sass'])
 
 
+// JS components task
+gulp.task('js', function() {
+
+	return gulp.src(mainfiles)
+
+		.pipe(jsfilter)
+		.pipe(gulp.dest('js'));
+
+});
+
 // SVG icons task
 gulp.task('svg', function () {
 
