@@ -26,7 +26,8 @@
     "octicons": "~2.1.2",
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git",
     "gumshoe": "https://github.com/cferdinandi/gumshoe.git",
-    "fastclick": "~1.0.6"
+    "fastclick": "~1.0.6",
+    "clipboard": "~1.5.5"
   },
   "overrides": {
     "pygments": {
