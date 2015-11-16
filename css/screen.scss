@@ -452,6 +452,14 @@ a {
 			color: $light-links;
 			background: darken($dark-links, 15%);
 		}
+		&--copy {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 1;
+			padding: 0 8px;
+			border-radius: 0;
+		}
 	}
 
 	// Edit link
@@ -589,6 +597,9 @@ fieldset {
 		button, .button {
 			display: inline-block;
 			line-height: initial;
+		}
+		.button--copy {
+			line-height: inherit;
 		}
 	}
 
