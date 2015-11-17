@@ -98,19 +98,21 @@ if(document.getElementById("search-field")){
 	// Get the elements.
 	// - the 'pre' element.
 	// - the 'div' with the 'paste-content' id.
-
 	var pre = document.getElementsByTagName('pre');
 	var pasteContent = document.getElementById('paste-content');
+
 	// Add a copy button in the 'pre' element.
 	// which only has the className of 'language-'.
-
 	for (var i = 0; i < pre.length; i++) {
 		var isLanguage = pre[i].children[0].className.indexOf('language-');
 		if ( isLanguage === 0 ) {
-			var button           = document.createElement('button');
+			var button = document.createElement('button');
+			var icon = document.createElement('span');
 					button.className = 'button--copy';
-					button.textContent = 'Copy';
+					icon.className = 'octicon octicon-clippy';
+					button.textContent = 'Copy ';
 					pre[i].appendChild(button);
+					button.appendChild(icon);
 		}
 	};
 
@@ -128,9 +130,13 @@ if(document.getElementById("search-field")){
 
 	copyCode.on('success', function(event) {
 		event.clearSelection();
-		event.trigger.textContent = 'Copied';
+		event.trigger.textContent = 'Copied ';
+		icon.className = 'octicon octicon-check';
+		event.trigger.appendChild(icon);
 		window.setTimeout(function() {
-			event.trigger.textContent = 'Copy';
+			event.trigger.textContent = 'Copy ';
+			icon.className = 'octicon octicon-clippy';
+			event.trigger.appendChild(icon);
 		}, 2000);
 	});
 	// On error (Safari):
@@ -140,7 +146,8 @@ if(document.getElementById("search-field")){
 	copyCode.on('error', function(event) {
 		event.trigger.textContent = 'Press "Ctrl + C" to copy';
 		window.setTimeout(function() {
-			event.trigger.textContent = 'Copy';
+			event.trigger.textContent = 'Copy ';
+			event.trigger.appendChild(icon);
 		}, 5000);
 	});
 })();
