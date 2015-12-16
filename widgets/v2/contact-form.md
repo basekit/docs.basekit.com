@@ -36,7 +36,7 @@ To include a contact form widget in your template you will need to add the follo
 
   {{widget('contactform', 'contact', {
     'text': 'Submit',
-    'formTitle': 'Contact Form',
+    'formTitle': 'Contact Us',
     'email': 'profile'
   })|raw}}
 

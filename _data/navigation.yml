@@ -120,6 +120,8 @@ navdocs:
     url: /widgets/v2/signup-form/
   - title: Contact Form
     url: /widgets/v2/contact-form/
+  - title: Advanced Contact Form
+    url: /widgets/v2/advanced-contact-form/
 
   # EMBEDS
   - title: Embeds
