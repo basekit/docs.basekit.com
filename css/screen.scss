@@ -142,6 +142,7 @@ body {
 		position: relative;
 		background: darken($light-background, 3%);
 		padding: 20px 15px 1px;
+		margin: 0;
 	}
 	code[data-lang]:before {
 		font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
