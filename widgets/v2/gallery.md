@@ -17,7 +17,7 @@ The gallery widget allows the user to display a selection or group of images tha
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('gallery', 'imagegallery', {})|raw}}
@@ -29,7 +29,7 @@ The above example will display an area in the template where the user can select
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('gallery', 'imagegallery', {
@@ -109,15 +109,15 @@ The above example will display an area in the template where the user can select
 
 The following options are available for the gallery widget:
 
-* ```showtitle```: Will show or hide the title, ```true``` for showing and ```false``` for hiding the image title. This can be overwritten by the user.
+* `showtitle`: Will show or hide the title, `true` for showing and `false` for hiding the image title. This can be overwritten by the user.
 
-* ```showDescription```: Will show or hide the description, ```true``` for showing and ```false``` for hiding the image description. This can be overwritten by the user.
+* `showDescription`: Will show or hide the description, `true` for showing and `false` for hiding the image description. This can be overwritten by the user.
 
-* ```images```: The default images for the gallery, see [Setting images](#setting-images) for more details.
+* `images`: The default images for the gallery, see [Setting images](#setting-images) for more details.
 
 ## Setting images
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 ...
 {
@@ -131,5 +131,5 @@ The following options are available for the gallery widget:
 {% endraw %}
 {% endhighlight %}
 
-To see the above example in context please refer to the [Example usage](#example-usage). The images will be shown as default in the template, but they won't be shown in the images panel of the Editor. If the user replaces the images they will no longer be accessible, you will need to state them in the metadata file in order for them to appear in the images panel. The ```url``` can be either an internal or external image path, all other image settings are optional.
+To see the above example in context please refer to the [Example usage](#example-usage). The images will be shown as default in the template, but they won't be shown in the images panel of the Editor. If the user replaces the images they will no longer be accessible, you will need to state them in the metadata file in order for them to appear in the images panel. The `url` can be either an internal or external image path, all other image settings are optional.
 

@@ -19,10 +19,10 @@ You can add a content widget to your template to display a paragraph text. The w
 
 To include a content widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('content', 'thisuniquewidgetname', {content: 'This is a content widget.', lines: 'all'})|raw}}
+{{widget('content', 'thisuniquewidgetname', {content: 'This is a content widget.', lines: 'all'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,10 +31,10 @@ To include a content widget in your template you will need to add the following 
 
 You can change the following options for the widget:
 
-* ```content```: The content on the widget
+* `content`: The content on the widget
 
-* ```lines```: Set the text truncation
+* `lines`: Set the text truncation
 
-  * ```one```
-  * ```two```
-  * ```all```
+  * `one`
+  * `two`
+  * `all`

@@ -17,10 +17,10 @@ You can add a redirect to desktop widget to your template. This widget will allo
 
 To include a redirect to desktop widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('redirecttodesktop', 'thisuniquewidgetname', {'text': 'Go to desktop version'})|raw}}
+{{widget('redirecttodesktop', 'thisuniquewidgetname', {'text': 'Go to desktop version'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -29,4 +29,4 @@ To include a redirect to desktop widget in your template you will need to add th
 
 You can change the following options for the widget:
 
-* ```text```: The text that will be displayed in the widget
+* `text`: The text that will be displayed in the widget

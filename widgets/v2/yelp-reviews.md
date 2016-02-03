@@ -21,23 +21,23 @@ You can add a Yelp review widget to your template. The Yelp business ID can be c
 
 To include a Yelp widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('yelpreview', 'reviews', {})|raw}}
+{{widget('yelpreview', 'reviews', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('yelpreview', 'reviews', {
-    'title': 'Yelp Review',
-    'yelpbusinessid': ''
-  })|raw}}
+{{widget('yelpreview', 'reviews', {
+  'title': 'Yelp Review',
+  'yelpbusinessid': ''
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -81,8 +81,8 @@ To include a Yelp widget in your template you will need to add the following lin
 
 You can change the following options for the widget:
 
-* ```title```: The title to display above the review, can be left blank
+* `title`: The title to display above the review, can be left blank
 
-* ```yelpbusinessid```: This is the unique ID Yelp uses to find your business, i.e. ```apple-store-london-5```
+* `yelpbusinessid`: This is the unique ID Yelp uses to find your business, i.e. `apple-store-london-5`
 
-* ```refreshTime```: How often the widget refreshes ```3600000``` ```72000000```
+* `refreshTime`: How often the widget refreshes `3600000` `72000000`

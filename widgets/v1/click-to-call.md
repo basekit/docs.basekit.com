@@ -19,10 +19,10 @@ You can add a click to call widget to your template to allow the visitor to clic
 
 To include a click to call widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('clicktocall', 'thisuniquewidgetname', {phoneText: 'Click to Call'})|raw}}
+{{widget('clicktocall', 'thisuniquewidgetname', {phoneText: 'Click to Call'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -30,24 +30,24 @@ To include a click to call widget in your template you will need to add the foll
 ## Widget Options
 You can change the following options for the widget:
 
-* ```phoneText```: The text on the widget
+* `phoneText`: The text on the widget
 
-* ```italic```: The text style. ```true``` or ```false``` (default)
+* `italic`: The text style. `true` or `false` (default)
 
-* ```bold```: The text style. ```true``` or ```false``` (default)
+* `bold`: The text style. `true` or `false` (default)
 
-* ```textAlign```: The text style. You can set it:
+* `textAlign`: The text style. You can set it:
 
-  * ```justifyleft```
-  * ```justifyright```
-  * ```justifycenter``` (default)
-  * ```justifyfull```
+  * `justifyleft`
+  * `justifyright`
+  * `justifycenter` (default)
+  * `justifyfull`
 
-* ```fontSize```: The text style. You can set it: 
-```inherit``` (default), ```14```, ```16```, ```18```, ```20```, ```22```, ```24```
+* `fontSize`: The text style. You can set it: 
+`inherit` (default), `14`, `16`, `18`, `20`, `22`, `24`
 
-* ```align```: The widget alignment. You can set it to:
+* `align`: The widget alignment. You can set it to:
 
-  * ```widget-align-left```
-  * ```widget-align-center```
-  * ```widget-align-right```
+  * `widget-align-left`
+  * `widget-align-center`
+  * `widget-align-right`

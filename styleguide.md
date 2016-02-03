@@ -28,17 +28,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Duis aute irure dolor in [a link](#top) reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur <span>span element</span> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-*   An item
-*   An item
-*   An item
-*   An item
-*   An item
+* An item
+* An item
+* An item
+* An item
+* An item
 
-1.  Item one
-2.  Item two
-3.  Item three
-4.  Item four
-5.  Item five
+1. Item one
+2. Item two
+3. Item three
+4. Item four
+5. Item five
 
 **Bold text**
 
@@ -104,7 +104,7 @@ Nullam eget nibh enim. Nulla ut erat eu enim pulvinar feugiat. Maecenas adipisci
 {% endraw %}
 {% endhighlight %}
 ----
-{% highlight css %}
+{% highlight scss %}
 {% raw %}
 body {
   background-color: @color-swatch1;
@@ -114,7 +114,7 @@ body {
 {% endraw %}
 {% endhighlight %}
 ----
-{% highlight django %}
+{% highlight python %}
 {% raw %}
   {{widget('content', 'thisunqiuewidgetname', {content: 'This is a content widget.', lines: 'all'})|raw}}
 {% endraw %}

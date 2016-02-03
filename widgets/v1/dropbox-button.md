@@ -19,10 +19,10 @@ You can add a Dropbox widget to your template that will allow you to add a link 
 
 To include a Dropbox widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('dropbox', 'thisuniquewidgetname', {'align': 'left', 'showFileName': false})|raw}}
+{{widget('dropbox', 'thisuniquewidgetname', {'align': 'left', 'showFileName': false})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,9 +31,9 @@ To include a Dropbox widget in your template you will need to add the following 
 
 You can change the following options for the widget:
 
-* ```showFileName``` Show the file name. ```true``` or ```false``` (default)
+* `showFileName` Show the file name. `true` or `false` (default)
 
-* ```align```: The widget alignment. You can set it to:
+* `align`: The widget alignment. You can set it to:
 
   * widget-align-left
   * widget-align-center

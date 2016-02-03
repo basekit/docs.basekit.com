@@ -17,10 +17,10 @@ Version: >= 7.32. Add an ecommerce product list to the page.
 
 **IMPORTANT: This widget will only work as expected when the ecommerce plugin is activated on the user's account.**
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecomproductslist', 'thisuniquewidgetname', {})|raw}}
+{{widget('ecomproductslist', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -29,4 +29,4 @@ Version: >= 7.32. Add an ecommerce product list to the page.
 
 You can change the following options for the widget:
 
-* ```productFiltering```: (integer) show/hide product filter functionality. ```1``` (default) shows functionality within the widget or ```0``` to hide it
+* `productFiltering`: (integer) show/hide product filter functionality. `1` (default) shows functionality within the widget or `0` to hide it

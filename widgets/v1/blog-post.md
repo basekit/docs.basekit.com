@@ -15,12 +15,12 @@ Version: >= 7.32. Add a blog post to the page.
 
 ## Overview
 
-**IMPORTANT**: This widget will only work as expected in the ```blogpost.twig``` page type. Otherwise the engine will fallback to ```default.twig```.
+**IMPORTANT**: This widget will only work as expected in the `blogpost.twig` page type. Otherwise the engine will fallback to `default.twig`.
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('blogpost', 'thisuniquewidgetname', {})|raw}}
+{{widget('blogpost', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

@@ -135,6 +135,9 @@ body {
 		p {
 			margin-bottom: 0.3em;
 		}
+		code {
+			background: darken($highlighted-text, 10%);
+		}
 	}
 
 	// Pygments
@@ -153,7 +156,7 @@ body {
 		left: 0;
 		width: 100%;
 		padding: 0 5px;
-		background: darken($light-background, 8%);;
+		background: darken($light-background, 8%);
 	}
 	code[data-lang=json]:before {
 		background: $json-colour;
@@ -161,11 +164,13 @@ body {
 	code[data-lang=html]:before {
 		background: $html-colour;
 	}
-	code[data-lang=django]:before {
+	code[data-lang=django]:before,
+	code[data-lang=python]:before {
 		content: "twig";
 		background: $twig-colour;
 	}
 	code[data-lang=sass]:before,
+	code[data-lang=scss]:before,
 	code[data-lang=css]:before {
 		content: "less";
 		background: $less-colour;

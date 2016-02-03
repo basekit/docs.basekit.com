@@ -19,10 +19,10 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecombasket', 'shopbasket', {})|raw}}
+{{widget('ecombasket', 'shopbasket', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

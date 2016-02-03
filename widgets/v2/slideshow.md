@@ -17,7 +17,7 @@ Much in the same way the [gallery widget](/widgets/v2/gallery/) works, the slide
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('responsiveslideshow', 'slideshow', {})|raw}}
@@ -29,41 +29,41 @@ The above example will display an area in the template where the user can select
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('responsiveslideshow', 'slideshow', {
-    'duration':'3',
-    'transSpeed': '1000',
-    'transType': 'fade',
-    'showButtons': true,
-    'showBullets': false,
-    'allowPause': true,
-    'allowLoop': true,
-    'images':[
-      {
-        'imageHeight':'350',
-        'imageWidth':'300',
-        'url':'http://placehold.it/350x300',
-        'title':'First slide title',
-        'description': 'First slide description'
-      },
-      {
-        'imageHeight':'350',
-        'imageWidth':'400',
-        'url':'http://placehold.it/350x400', 
-        'title':'Second slide title',
-        'description': 'Second slide description'
-      },
-      {
-        'imageHeight':'350',
-        'imageWidth':'500',
-        'url':'http://placehold.it/350x500',
-        'title':'Third slide title',
-        'description': 'Third slide description'
-      }
-    ]
-  })|raw}}
+{{widget('responsiveslideshow', 'slideshow', {
+  'duration':'3',
+  'transSpeed': '1000',
+  'transType': 'fade',
+  'showButtons': true,
+  'showBullets': false,
+  'allowPause': true,
+  'allowLoop': true,
+  'images':[
+  {
+      'imageHeight':'350',
+      'imageWidth':'300',
+      'url':'http://placehold.it/350x300',
+      'title':'First slide title',
+      'description': 'First slide description'
+    },
+  {
+      'imageHeight':'350',
+      'imageWidth':'400',
+      'url':'http://placehold.it/350x400', 
+      'title':'Second slide title',
+      'description': 'Second slide description'
+    },
+  {
+      'imageHeight':'350',
+      'imageWidth':'500',
+      'url':'http://placehold.it/350x500',
+      'title':'Third slide title',
+      'description': 'Third slide description'
+    }
+  ]
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -125,27 +125,27 @@ The above example will display an area in the template where the user can select
 
 You can change the following options for the widget:
 
-* ```duration```: The duration of time the slide is shown for in seconds.
+* `duration`: The duration of time the slide is shown for in seconds.
 
-* ```transSpeed```: The speed of the slide transition in milliseconds.
+* `transSpeed`: The speed of the slide transition in milliseconds.
 
-* ```transType```: The type of transition between slides. There are currently 3 possible options; ```dissolve```, ```fade```, and ```none```.
+* `transType`: The type of transition between slides. There are currently 3 possible options; `dissolve`, `fade`, and `none`.
 
-* ```showButtons```: Whether to show or hide the previous and next controls. ```true``` for show and ```false``` for hide.
+* `showButtons`: Whether to show or hide the previous and next controls. `true` for show and `false` for hide.
 
-* ```showBullets```: Whether to show or hide the numbered pagination controls. ```true``` for show and ```false``` for hide.
+* `showBullets`: Whether to show or hide the numbered pagination controls. `true` for show and `false` for hide.
 
-* ```allowPause```: Whether to show or hide the pause button. ```true``` for show and ```false``` for hide.
+* `allowPause`: Whether to show or hide the pause button. `true` for show and `false` for hide.
 
-* ```allowLoop```: Whether the slideshow should loop through the images repeatively. ```true``` to loop them, ```false``` to stop at the end of the cycle.
+* `allowLoop`: Whether the slideshow should loop through the images repeatively. `true` to loop them, `false` to stop at the end of the cycle.
 
-* ```crop```: Whether the images should crop or fit the slideshow area. Setting to ```true``` will make the images fill the entire slideshow space, ```false``` will make them fit the available space but keep them entirely visible.
+* `crop`: Whether the images should crop or fit the slideshow area. Setting to `true` will make the images fill the entire slideshow space, `false` will make them fit the available space but keep them entirely visible.
 
-* ```images```: The default images for the slideshow, see [Setting images](#setting-images) for more details.
+* `images`: The default images for the slideshow, see [Setting images](#setting-images) for more details.
 
 ## Setting images
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 ...
 {
@@ -159,5 +159,5 @@ You can change the following options for the widget:
 {% endraw %}
 {% endhighlight %}
 
-To see the above example in context please refer to the [Example usage](#example-usage). The images will be shown as default in the template, but they won't be shown in the images panel of the Editor. If the user replaces the images they will no longer be accessible, you will need to state them in the metadata file in order for them to appear in the images panel. The ```url``` can be either an internal or external image path, all other image settings are optional.
+To see the above example in context please refer to the [Example usage](#example-usage). The images will be shown as default in the template, but they won't be shown in the images panel of the Editor. If the user replaces the images they will no longer be accessible, you will need to state them in the metadata file in order for them to appear in the images panel. The `url` can be either an internal or external image path, all other image settings are optional.
 

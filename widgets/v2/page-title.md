@@ -17,10 +17,10 @@ Adding the page title widget to your template means the user can optionally show
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('pagetitle', 'title', {})|raw}}
+{{widget('pagetitle', 'title', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

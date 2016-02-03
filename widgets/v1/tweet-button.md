@@ -19,10 +19,10 @@ You can add a tweet button to your template that will allow the user to share th
 
 To include a tweet widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('tweet', 'thisuniquewidgetname', {'linkText': 'Tweet'})|raw}}
+{{widget('tweet', 'thisuniquewidgetname', {'linkText': 'Tweet'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,9 +31,9 @@ To include a tweet widget in your template you will need to add the following li
 
 You can change the following options for the widget:
 
-* ```linkText```: The text that will appear in the tweet button
+* `linkText`: The text that will appear in the tweet button
 
-* ```align```: The widget alignment. You can set it to: 
-  * ```widget-align-left```
-  * ```widget-align-center```
-  * ```widget-align-right```
+* `align`: The widget alignment. You can set it to: 
+  * `widget-align-left`
+  * `widget-align-center`
+  * `widget-align-right`

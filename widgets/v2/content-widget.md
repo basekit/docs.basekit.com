@@ -19,19 +19,19 @@ Adding a content widget to your template means the user can add text content to 
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('content', 'sidebarcontent', {})|raw}}
+{{widget('content', 'sidebarcontent', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
-The above example has an ID of ```sidebarcontent```, which will mean any content widget with this ID will use the same content. Providing a different ID for another content widget will allow the user to edit them independently.
+The above example has an ID of `sidebarcontent`, which will mean any content widget with this ID will use the same content. Providing a different ID for another content widget will allow the user to edit them independently.
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('content', 'sidebarcontent', {
@@ -59,9 +59,9 @@ The above example has an ID of ```sidebarcontent```, which will mean any content
 
 These are additional options that can be set by the template developer, however they can all be changed by the user. These will be the initial settings of the widget:
 
-* ```content```: The content on the widget
+* `content`: The content on the widget
 
-* ```lines```: The amount of content that can be seen upon first viewing, by default it shows all content.
-  * ```all```: Shows all the content, this is the default.
-  * ```one```: Shows only the first paragraph with a "more..." button to toggle the rest of the content.
-  * ```two```: Shows the first two paragraphs with a "more..." button to toggle the rest of the content.
+* `lines`: The amount of content that can be seen upon first viewing, by default it shows all content.
+  * `all`: Shows all the content, this is the default.
+  * `one`: Shows only the first paragraph with a "more..." button to toggle the rest of the content.
+  * `two`: Shows the first two paragraphs with a "more..." button to toggle the rest of the content.

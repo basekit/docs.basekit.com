@@ -19,10 +19,10 @@ This widget is managed by a third party. The Editor wraps the Disqus comments wi
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('disqus', 'pagecomments', {})|raw}}
+{{widget('disqus', 'pagecomments', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

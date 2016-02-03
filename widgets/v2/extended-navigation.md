@@ -18,24 +18,24 @@ Like the logo widget, the extended navigation widget is a template widget and ca
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('extendednavigation', 'navigation', {})|raw}}
+{{widget('extendednavigation', 'navigation', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-Setting the alignment of the navigation can be done so by setting the ```align``` option, as done so below:
+Setting the alignment of the navigation can be done so by setting the `align` option, as done so below:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('extendednavigation', 'navigation', {
-    'align': 'center'
-  })|raw}}
+{{widget('extendednavigation', 'navigation', {
+  'align': 'center'
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -89,4 +89,4 @@ Note that the extended navigation widget has quite a complex structure, especial
 
 ## Widget options
 
-As stated above, the only option for the extended navigation widget is ```align```. This can be set to ```left```, ```right```, or ```center``` respectively.
+As stated above, the only option for the extended navigation widget is `align`. This can be set to `left`, `right`, or `center` respectively.

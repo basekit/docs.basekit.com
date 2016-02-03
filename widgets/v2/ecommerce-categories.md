@@ -19,23 +19,23 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecomcategories', 'productcategories', {})|raw}}
+{{widget('ecomcategories', 'productcategories', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecomcategories', 'productcategories', {
-    'title': 'Categories',
-    'showCount', true
-  })|raw}}
+{{widget('ecomcategories', 'productcategories', {
+  'title': 'Categories',
+  'showCount', true
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -66,6 +66,6 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 ## Widget options
 
-* ```title```: The title of the widget, shown above the list itself. If this is not set if will default to the word ```Categories```.
+* `title`: The title of the widget, shown above the list itself. If this is not set if will default to the word `Categories`.
 
-* ```showCount```: Shows the number of products under each category. Set to ```true``` to show or ```false``` to hide them, if this option isn't set then they are shown by default.
+* `showCount`: Shows the number of products under each category. Set to `true` to show or `false` to hide them, if this option isn't set then they are shown by default.

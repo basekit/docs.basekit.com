@@ -9,33 +9,29 @@ The inclusion of assets into a template is much the same as including them into 
 
 ## HTML File Types
 
-```
-*.twig
-```
+- `*.twig`
 
 ## CSS File Types
 
-```
-*.less *.css
-```
+- `*.less`
+- `*.css`
 
 ## Image File Types
 
-```
-*.jpg *.jpeg *.png *.gif *.svg
-```
+- `*.jpg`
+- `*.jpeg`
+- `*.png`
+- `*.gif`
+- `*.svg`
 
 ## JavaScript File Types
 
-```
-*.js *.json
-```
+- `*.js`
+- `*.json`
 
 ## Other File Types
 
-```
-*.md
-```
+- `*.md`
 
 ### File Structure
 
@@ -70,10 +66,11 @@ stylesheet.less
 
 BaseKit templates can be deployed to multiple environments, so we refer to a file relatively in the template code. The BaseKit framework will convert these relative links into absolute urls at the point of display.
 
-For example, to reference logo.png in the images directory:
+For example, to reference `logo.png` in the images directory:
 
 In `*.less` files you use the `image()` function:
-{% highlight css %}
+
+{% highlight scss %}
 {% raw %}
 
   div.logo { background-image:image('/image/logo.png'); }
@@ -81,9 +78,10 @@ In `*.less` files you use the `image()` function:
 {% endraw %}
 {% endhighlight %}
 
-In *.twig files you use the asset() function.
+In `*.twig` files you use the `asset()` function.
 
-You can also reference other files types within *twig and (as of version 7.53) *.less files:
+You can also reference other files types within *twig and (as of version 7.53) `*.less` files:
+
 {% highlight html %}
 {% raw %}
 
@@ -101,7 +99,7 @@ You can also reference other files types within *twig and (as of version 7.53) *
 
 > **IMPORTANT:** Using the `asset()` function in `*.less` files is only available in **version 7.53 and above**.
 
-{% highlight css %}
+{% highlight scss %}
 {% raw %}
 
 @font-face {

@@ -5,15 +5,15 @@ title: Metadata
 
 # Metadata
 
-All templates must contain a ```metadata.json``` file. This file provides key information about your template to the Editor environments on which it is installed.
+All templates must contain a `metadata.json` file. This file provides key information about your template to the Editor environments on which it is installed.
 
 ## Properties of Metadata.json
 
-* ```name``` (string) Name of the template. Use only the letters of the alphabet (upper or lower case), underscores (_), and dashes (-).
+* `name` (string) Name of the template. Use only the letters of the alphabet (upper or lower case), underscores (_), and dashes (-).
 
-* ```thumbnail``` (string) Filename of the thumbnail that need to be included with the template repository. The file type should be JPG. Width: 285px. Height: 410px
+* `thumbnail` (string) Filename of the thumbnail that need to be included with the template repository. The file type should be JPG. Width: 285px. Height: 410px
 
-* ```pageTypes``` (array) From Version >= 7.22. The page types that are available with your template. These are linked to the Twig files within the top level directory in your repository. i.e. home would expect home.twig. Currently supported page types are: ["home, about, contact, gallery"]
+* `pageTypes` (array) From Version >= 7.22. The page types that are available with your template. These are linked to the Twig files within the top level directory in your repository. i.e. home would expect home.twig. Currently supported page types are: ["home, about, contact, gallery"]
 
 ## The metadata.json Example File
 
@@ -34,11 +34,11 @@ All templates must contain a ```metadata.json``` file. This file provides key in
 
 Adding more information to your metadata file means that you can take advantage of Editor features such as colour swatch swapping and font swatch editing. Adding custom colours and fonts gives the user more control of the appearance of their site.
 
-* ```widgetVersion``` (integer): From Version >= 7.42. Default is ```1```. The options are currently ```1``` and ```2```. We recommend using widget version 2 as it has improved markup.
+* `widgetVersion` (integer): From Version >= 7.42. Default is `1`. The options are currently `1` and `2`. We recommend using widget version 2 as it has improved markup.
 
-* ```templateType``` (string): From Version >= 7.30. Template type of the template. Default is ```standard``` if not included. This will determine which type of template is for filtering in the template picker. Can either be ```standard```, ```blog```, ```ecommerce``` or ```menu```.
+* `templateType` (string): From Version >= 7.30. Template type of the template. Default is `standard` if not included. This will determine which type of template is for filtering in the template picker. Can either be `standard`, `blog`, `ecommerce` or `menu`.
 
-* ```images``` (array): From Version >= 7.32. If you want the images in your template to appear in the Images sidebar within the Editor, you can define them in metadata.json:
+* `images` (array): From Version >= 7.32. If you want the images in your template to appear in the Images sidebar within the Editor, you can define them in metadata.json:
 
 {% highlight json %}
 
@@ -55,7 +55,7 @@ Adding more information to your metadata file means that you can take advantage 
 
 {% endhighlight %}
 
-* ```colorSwatches``` (multi level array): A colour swatch consists of 7 colours. If the swatch is selected, the colours can be referenced in LESS. i.e. @color-swatch1. There can only be 7 colours per swatch but there can be more than one swatch within a template.
+* `colorSwatches` (multi level array): A colour swatch consists of 7 colours. If the swatch is selected, the colours can be referenced in LESS. i.e. @color-swatch1. There can only be 7 colours per swatch but there can be more than one swatch within a template.
 
 {% highlight json %}
 
@@ -84,9 +84,9 @@ Adding more information to your metadata file means that you can take advantage 
 
 {% endhighlight %}
 
-### Referenced in LESS
+#### Referenced in LESS
 
-{% highlight css %}
+{% highlight scss %}
 
 body {
   background-color: @color-swatch1;
@@ -96,7 +96,7 @@ body {
 
 {% endhighlight %}
 
-* ```fontSwatch``` (multi level array): A font swatch is a collection of fonts and their respective values. We defined values for font swatches to link LESS styling to the Editor. There are currently 9 fonts defined in a swatch; font-swatch1 to font-swatch9. This matches up in the font settings panel in the Editor. The fonts are linked to certain tags in the Editor. For example, font-swatch1 is linked to the H1 tag in all templates. This is achieved through LESS, matching up swatch values to H1 properties. Note: ```font-swatch1``` does not explicitly have to be matched up to H1, it is designed this way through LESS declarations. If you do not use ```font-swatch1``` for H1 properties there will be a disconnect between the Editor and your design, we therefore suggest that you stick to our recommended standards.
+* `fontSwatch` (multi level array): A font swatch is a collection of fonts and their respective values. We defined values for font swatches to link LESS styling to the Editor. There are currently 9 fonts defined in a swatch; font-swatch1 to font-swatch9. This matches up in the font settings panel in the Editor. The fonts are linked to certain tags in the Editor. For example, font-swatch1 is linked to the H1 tag in all templates. This is achieved through LESS, matching up swatch values to H1 properties. Note: `font-swatch1` does not explicitly have to be matched up to H1, it is designed this way through LESS declarations. If you do not use `font-swatch1` for H1 properties there will be a disconnect between the Editor and your design, we therefore suggest that you stick to our recommended standards.
 
   For a full list of available fonts within the Editor please refer to [Font Stacks](/data/font-stacks/).
 
@@ -195,9 +195,9 @@ body {
 
 {% endhighlight %}
 
-### Referenced in LESS
+#### Referenced in LESS
 
-{% highlight css %}
+{% highlight scss %}
 
 h1 {
   font-family:    @font-swatch1-font-family;

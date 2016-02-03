@@ -17,10 +17,10 @@ Version: >= 7.32. Add an ecommerce basket to the page.
 
 **IMPORTANT: This widget will only work as expected when the ecommerce plugin is activated on the user's account.**
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecombasket', 'thisuniquewidgetname', {})|raw}}
+{{widget('ecombasket', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

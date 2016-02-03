@@ -17,17 +17,15 @@ The click to call widget has similar properties to the [button widget](/widgets/
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
-
-  {{widget('clicktocall', 'clicktocalldefault', {})|raw}}
- 
+{{widget('clicktocall', 'clicktocalldefault', {})|raw}}
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('clicktocall', 'headerclicktocall', {
@@ -61,16 +59,16 @@ The click to call widget has similar properties to the [button widget](/widgets/
 
 You can change the following options for the widget:
 
-* ```phoneText```: The text shown in the click to call widget.
+* `phoneText`: The text shown in the click to call widget.
 
-* ```italic```: Sets the click to call to italicised using an ```italic``` class on the button element, ```true``` or ```false``` respectively.
+* `italic`: Sets the click to call to italicised using an `italic` class on the button element, `true` or `false` respectively.
 
-* ```bold```: Sets the click to call to bold using a ```bold``` class on the button element, ```true``` or ```false``` respectively.
+* `bold`: Sets the click to call to bold using a `bold` class on the button element, `true` or `false` respectively.
 
-* ```fontSize```: Changes the click to call font size in pixel values, options are ```14```, ```16```, ```18```, ```20```, ```22```, ```24```
+* `fontSize`: Changes the click to call font size in pixel values, options are `14`, `16`, `18`, `20`, `22`, `24`
 
-* ```align```: Sets the button alignment using classes on the surround ```div``` element. The following options are available:
+* `align`: Sets the button alignment using classes on the surround `div` element. The following options are available:
 
-  * ```widget-align-left```: To align the text to the left.
-  * ```widget-align-center```: To align the text to centre.
-  * ```widget-align-right```: To align the text to the right.
+  * `widget-align-left`: To align the text to the left.
+  * `widget-align-center`: To align the text to centre.
+  * `widget-align-right`: To align the text to the right.
