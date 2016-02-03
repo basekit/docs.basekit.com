@@ -19,10 +19,10 @@ You can add a map widget to your template. The map address can be changed later 
 
 To include a map widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('map', 'thisuniquewidgetname', {'height': '150', 'zoom': '15', 'address': 'profile'})|raw}}
+{{widget('map', 'thisuniquewidgetname', {'height': '150', 'zoom': '15', 'address': 'profile'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -30,8 +30,8 @@ To include a map widget in your template you will need to add the following line
 ## Widget Options
 You can change the following options for the widget:
 
-* ```height```: The height of the map in pixels. Possible values: from ```100``` to ```500```
+* `height`: The height of the map in pixels. Possible values: from `100` to `500`
 
-* ```zoom```: The map zoom. Possible values: from ```1``` to ```20```
+* `zoom`: The map zoom. Possible values: from `1` to `20`
 
-* ```address```: The address for setting up the map. If you set to ```profile```, it will use the profile data
+* `address`: The address for setting up the map. If you set to `profile`, it will use the profile data

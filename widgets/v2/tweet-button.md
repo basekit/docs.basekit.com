@@ -17,7 +17,7 @@ The tweet button widget allows the option to post the currently viewed page to T
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('tweet', 'button', {})|raw}}
@@ -25,11 +25,11 @@ The tweet button widget allows the option to post the currently viewed page to T
 {% endraw %}
 {% endhighlight %}
 
-By default the text in the button is empty, so it's advised that you add text using the ```linkText``` option.
+By default the text in the button is empty, so it's advised that you add text using the `linkText` option.
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('tweet', 'tweetblog', {
@@ -59,12 +59,12 @@ By default the text in the button is empty, so it's advised that you add text us
 
 The button widget has a wide selection of options:
 
-* ```linkText```: The text shown on the tweet button.
+* `linkText`: The text shown on the tweet button.
 
-* ```tweetText```: The text shown in the posted tweet.
+* `tweetText`: The text shown in the posted tweet.
 
-* ```align```: Sets the button alignment using classes on the surrounding ```div``` element. The following options are available:
+* `align`: Sets the button alignment using classes on the surrounding `div` element. The following options are available:
 
-  * ```widget-align-left```: To align the button to the left.
-  * ```widget-align-center```: To align the button to centre.
-  * ```widget-align-right```: To align the button to the right.
+  * `widget-align-left`: To align the button to the left.
+  * `widget-align-center`: To align the button to centre.
+  * `widget-align-right`: To align the button to the right.

@@ -28,11 +28,11 @@ A menu will appear on the right of the template panel. Click on the **Download t
 
 Once downloaded, you'll be able to open the file and see the following basics:
 
-* ```stylesheet.less```: this is where you'll add your styles using CSS or LESS for example
+* `stylesheet.less`: this is where you'll add your styles using CSS or LESS for example
 
-* ```default.twig```: this is the default layout for all your pages. You can add more Twig files later
+* `default.twig`: this is the default layout for all your pages. You can add more Twig files later
 
-* ```metadata.json```: this is where you will set all your [options for your template](/templating/metadata/)
+* `metadata.json`: this is where you will set all your [options for your template](/templating/metadata/)
 
 {% include imagecenter.html image="/assets/content/getting-started/template-files.png" alt="template files" %}
 
@@ -56,7 +56,7 @@ The preferences window will open with numerous tabs. Click on the Web Server or 
 
 {% include imagecenter.html image="/assets/content/getting-started/mamp-server-options.png" alt="server options" %}
 
-Click the grey folder icon next to "Document Root", and then select the ```public``` folder inside the Template Viewer folder. Click OK to confirm your changes.
+Click the grey folder icon next to "Document Root", and then select the `public` folder inside the Template Viewer folder. Click OK to confirm your changes.
 
 You should be taken back to the main menu in the MAMP window. Click **Start Servers**. Once loaded, the symbol will turn green:
 

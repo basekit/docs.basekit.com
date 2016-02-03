@@ -17,10 +17,10 @@ You can add a company name widget to your template which simply the company name
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('companyname', 'headercompanyname', {"business": "profile"})|raw}}
+{{widget('companyname', 'headercompanyname', {"business": "profile"})|raw}}
 
 {% endraw %}
 {% endhighlight %}

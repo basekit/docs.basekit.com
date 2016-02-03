@@ -17,10 +17,10 @@ Version: >= 7.32. Add a Blog Search Widget to the Page
 
 **IMPORTANT**: This widget will only work with the Blog plugin is enabled on the user's account. This search the blog posts associated to the users site.
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('blogsearch', 'thisuniquewidgetname', {})|raw}}
+{{widget('blogsearch', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

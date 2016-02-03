@@ -19,23 +19,23 @@ The Dropbox download button is a widget that allows the user to offer a file fro
 
 To include a Dropbox widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('dropbox', 'downloadbutton', {})|raw}}
+{{widget('dropbox', 'downloadbutton', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('dropbox', 'downloadbutton', {
-    'align': 'left',
-    'showFileName': true
-  })|raw}}
+{{widget('dropbox', 'downloadbutton', {
+  'align': 'left',
+  'showFileName': true
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -59,10 +59,10 @@ To include a Dropbox widget in your template you will need to add the following 
 
 You can change the following options for the dropbox button widget:
 
-* ```showFileName```: Show the file name next to the download button Show the file name. ```true``` to show the file name, or ```false``` to hide it. It is hidden by default.
+* `showFileName`: Show the file name next to the download button Show the file name. `true` to show the file name, or `false` to hide it. It is hidden by default.
 
-* ```align```: Sets the download button alignment using classes on the surround ```div``` element. The following options are available:
+* `align`: Sets the download button alignment using classes on the surround `div` element. The following options are available:
 
-  * ```widget-align-left```: To align the download button to the left.
-  * ```widget-align-center```: To align the download button to centre.
-  * ```widget-align-right```: To align the download button to the right.
+  * `widget-align-left`: To align the download button to the left.
+  * `widget-align-center`: To align the download button to centre.
+  * `widget-align-right`: To align the download button to the right.

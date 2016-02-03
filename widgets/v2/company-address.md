@@ -21,10 +21,10 @@ To include a company address widget in your template you will need to add the fo
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('companyaddress', 'address', {})|raw}}
+{{widget('companyaddress', 'address', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

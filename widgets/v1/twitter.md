@@ -19,10 +19,10 @@ You can add a Twitter feed widget to your template. The feed source can be chang
 
 To include a Twitter feed widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('twitter', 'thisuniquewidgetname', {'searchKey': 'cats', 'searchType': 'username', 'count': '3','refreshTime': '1800000','includeRts': '0'})|raw}}
+{{widget('twitter', 'thisuniquewidgetname', {'searchKey': 'cats', 'searchType': 'username', 'count': '3','refreshTime': '1800000','includeRts': '0'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,12 +31,12 @@ To include a Twitter feed widget in your template you will need to add the follo
 
 You can change the following options for the widget:
 
-* ```searchKey```: The source key from which the tweets will be retrieved. Also you can put ```profile``` to use the shared profile data
+* `searchKey`: The source key from which the tweets will be retrieved. Also you can put `profile` to use the shared profile data
 
-* ```searchType```: The search key type. Possible values: ```username``` or ```topic```
+* `searchType`: The search key type. Possible values: `username` or `topic`
 
-* ```refreshTime```: The refresh time in milliseconds
+* `refreshTime`: The refresh time in milliseconds
 
-* ```includeRts```: Include retweets. Possible values: ```0``` (do not include) or ```1``` (include)
+* `includeRts`: Include retweets. Possible values: `0` (do not include) or `1` (include)
 
-* ```count```: The number of tweets that the widget will show
+* `count`: The number of tweets that the widget will show

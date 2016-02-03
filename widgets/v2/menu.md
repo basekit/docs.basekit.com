@@ -21,10 +21,10 @@ This widget is used to display a list of items, dishes, services with a price as
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('menu', 'menu', {})|raw}}
+{{widget('menu', 'menu', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

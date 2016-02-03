@@ -17,10 +17,10 @@ Version: >= 7.32. Like a slideshow widget but for featured products.
 
 **IMPORTANT: This widget will only work as expected when the ecommerce plugin is activated on the user's account.**
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecomfeaturedproducts', 'thisuniquewidgetname', {})|raw}}
+{{widget('ecomfeaturedproducts', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

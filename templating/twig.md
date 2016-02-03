@@ -30,6 +30,7 @@ Stripped down to the basics, a Twig file should look like the following:
 
 {% highlight html %}
 {% raw %}
+
 <!doctype html>
 <html>
   <head>
@@ -55,6 +56,7 @@ Stripped down to the basics, a Twig file should look like the following:
     {% include basekit.bodyScript %}
   </body>
 </html>
+
 {% endraw %}
 {% endhighlight %}
 
@@ -70,6 +72,7 @@ There are 2 tags that are required in any template to get them to work in the Ed
 
 {% highlight html %}
 {% raw %}
+
 <!doctype html>
 <html>
   <head>
@@ -79,6 +82,7 @@ There are 2 tags that are required in any template to get them to work in the Ed
     {% include basekit.bodyScript %}
   </body>
 </html>
+
 {% endraw %}
 {% endhighlight %}
 
@@ -88,7 +92,9 @@ These will bring widgets to life and let the Editor know that the page is ready.
 
 {% highlight html %}
 {% raw %}
-  <title>{{ page.title }}</title>
+
+<title>{{ page.title }}</title>
+
 {% endraw %}
 {% endhighlight %}
 
@@ -99,7 +105,9 @@ You can easily feed data into the template's HTML from the Editor engine. Twig v
 
 {% highlight html %}
 {% raw %}
-  <link rel="stylesheet" href="//{/{{env.assetDomain}}/templates/common/responsive-columns.css" />
+
+<link rel="stylesheet" href="//{/{{env.assetDomain}}/templates/common/responsive-columns.css" />
+
 {% endraw %}
 {% endhighlight %}
 
@@ -107,11 +115,13 @@ This will pull common assets into the template feed from the engine. In the exam
 
 {% highlight html %}
 {% raw %}
-  <link rel="stylesheet" href="{{asset('/css/responsive-columns.css')}}" />
+
+<link rel="stylesheet" href="{{asset('/css/responsive-columns.css')}}" />
+
 {% endraw %}
 {% endhighlight %}
 
-You can find more information on the asset function in [this article](/templating/assets/#asset--image-functions)
+You can find more information on the asset function in [this article](/templating/assets/#asset--image-functions).
 
 ### Background Rendering
 
@@ -119,7 +129,9 @@ We can code whatever design required into a template, but we want the user to be
 
 {% highlight html %}
 {% raw %}
-  <body class="{{ page.backgroundClass }}">
+
+<body class="{{ page.backgroundClass }}">
+
 {% endraw %}
 {% endhighlight %}
 
@@ -127,10 +139,12 @@ We can code whatever design required into a template, but we want the user to be
 
 This is where a user can drag their content. Wherever you place this tag in your template is where user placed content will be rendered into the HTML. The content is page-based so if the zone is rendered for multiple pages, the Editor engine will provide the widget HTML to the template and render it in place of this tag:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
-  {{zone()|raw}}
+
+{{zone()|raw}}
+
 {% endraw %}
 {% endhighlight %}
 
-**Note:** A page does not have to have a zone but if one is not rendered a user will not be able to render widgets into a template.
+> **Note:** A page does not have to have a zone but if one is not set a user will not be able to drag widgets onto the page.

@@ -22,10 +22,6 @@ exclude:
 - node_modules
 - package.json
 
-highlighter: pygments
-
-markdown: kramdown
-
 excerpt_separator: "\n\n"
 
 # Permalinks

@@ -18,10 +18,10 @@ You can add a company address widget to your template which contains the company
 
 To include a company address widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('companyaddress', 'thisuniquewidgetname', {})|raw}}
+{{widget('companyaddress', 'thisuniquewidgetname', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

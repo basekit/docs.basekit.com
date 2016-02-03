@@ -19,10 +19,10 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('ecomproductslist', 'productlist', {})|raw}}
+{{widget('ecomproductslist', 'productlist', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -165,5 +165,5 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 You can change the following options for the widget:
 
-* ```productFiltering```: Show or hide the product filters above the product items. ```1``` shows the filters, ```0``` will hide them. If this is not set they are shown by default.
+* `productFiltering`: Show or hide the product filters above the product items. `1` shows the filters, `0` will hide them. If this is not set they are shown by default.
 

@@ -19,7 +19,7 @@ You can add a gallery widget to your template. It will use images in your album 
 
 To include a gallery widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('gallery', 'thisuniquewidgetname', {'images':[{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'}]})|raw}}
@@ -29,8 +29,8 @@ To include a gallery widget in your template you will need to add the following 
 
 ## Widget Options
 
-* ```showTitle```: optional show or hide the image title. ```true``` or ```false```
+* `showTitle`: optional show or hide the image title. `true` or `false`
 
-* ```showDescription```: optional show or hide the image description. ```true``` or ```false```
+* `showDescription`: optional show or hide the image description. `true` or `false`
 
-* ```images```: optional An array of images with properties (```imageHeight```, ```imageWidth```, ```url```, ```title```, ```description```) as opposed to using an album
+* `images`: optional An array of images with properties (`imageHeight`, `imageWidth`, `url`, `title`, `description`) as opposed to using an album

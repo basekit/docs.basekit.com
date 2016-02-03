@@ -19,19 +19,20 @@ A user can select a page type at the point of page creation within the editor.
 
 Page types are defined as Twig files within the template. The currently supported page types are:
 
-* ```home.twig``` (optional): Used to create a homepage layout
+* `home.twig` (optional): Used to create a homepage layout
 
-* ```about.twig``` (optional): Used to create an about page layout and will populate the zone with about page content
+* `about.twig` (optional): Used to create an about page layout and will populate the zone with about page content
 
-* ```contact.twig``` (optional): Used to create an contact page layout and will populate the zone with contact page content
+* `contact.twig` (optional): Used to create an contact page layout and will populate the zone with contact page content
 
-* ```default.twig``` (required): This is the default layout. This is used when 'blank' is selected (see lightbox image above). Also, when a template does not include a certain layout (for example contact.twig) it will always fallback to this layout
+* `default.twig` (required): This is the default layout. This is used when 'blank' is selected (see lightbox image above). Also, when a template does not include a certain layout (for example contact.twig) it will always fallback to this layout
 
 ## Page Type Layouts Within a Template
 
 Below is an extension of the file structure defined in the [assets](/templating/assets) section. This extension includes more Twig files - marked with a "*".
 
-{% highlight html %}
+{% highlight text %}
+
 images/
 - logo.png
 README.md
@@ -43,16 +44,17 @@ home.twig *
 metadata.json
 stylesheet.less
 404.twig *
+
 {% endhighlight %}
 
 ## 404 Page
 
 You can have a custom 404 design included in your template. Follow these steps:
 
-* Add a ```404.twig``` in the top level directory of your template
+* Add a `404.twig` in the top level directory of your template
 
-* Add ```404``` to the ```pageTypes``` array with in [metadata.json](/templating/metadata/)
+* Add `404` to the `pageTypes` array with in [metadata.json](/templating/metadata/)
 
 * Upload the template to the Editor
 
-* Create page within the editor called ```404```. Make sure you select the 404 Page Type
+* Create page within the editor called `404`. Make sure you select the 404 Page Type

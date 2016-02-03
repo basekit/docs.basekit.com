@@ -15,15 +15,15 @@ Widgets that can be dragged into a website from the Editor is known as a **Zone 
 
 If you wish to use Zone Widgets within your template you must define an area for them using the Twig templating language:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 {{zone()|raw}}
 {% endraw %}
 {% endhighlight %}
 
-Using the above snippet you can define an area of space in which you would like users to drag and drop widgets. This can be placed anywhere within the ```<body>``` element on any [Page Type](/templating/page-types/) you desire. However Zone Areas **can only be defined once on each page type**, defining a Zone Area twice on the same Page Type can cause unwanted results.
+Using the above snippet you can define an area of space in which you would like users to drag and drop widgets. This can be placed anywhere within the `<body>` element on any [Page Type](/templating/page-types/) you desire. However Zone Areas **can only be defined once on each page type**, defining a Zone Area twice on the same Page Type can cause unwanted results.
 
-Below is a basic example of defining a Zone Area within a template file, for example ```default.twig```:
+Below is a basic example of defining a Zone Area within a template file, for example `default.twig`:
 
 {% highlight html %}
 {% raw %}
@@ -61,15 +61,15 @@ Widgets can also be coded directly into your template, allowing you to define mo
 
 Template Widgets can be defined in your template using the Twig templating language:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 {{widget('content','headercontent',{})|raw}}
 {% endraw %}
 {% endhighlight %}
 
-Because defining a Template Widget is more specific than defining a Zone Area, the code is slightly more detailed. The above example is defining a ```content``` ```widget``` with than identifier of ```headercontent```. The identifier of a Template Widget must be unique, if it is not then the template will not be accepted by the editor.
+Because defining a Template Widget is more specific than defining a Zone Area, the code is slightly more detailed. The above example is defining a `content` `widget` with than identifier of `headercontent`. The identifier of a Template Widget must be unique, if it is not then the template will not be accepted by the editor.
 
-Note that the Twig code used to define a particular widget contains additional brackets, ```{}```. This is where you can define default parameters, such as default content or settings.
+Note that the Twig code used to define a particular widget contains additional brackets, `{}`. This is where you can define default parameters, such as default content or settings.
 
 Below is a basic example of defining a Template Widget within a template file, along with a default parameter:
 
@@ -107,7 +107,7 @@ Despite that all Zone Widgets are all available to use as Template Widgets, ther
 
 In some cases, it's required for a widget to exist in a template but not be visible by default (e.g. an option to add a logo that doesn't have a default image). Hiding the widget can be done by adding the following:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('logo', 'examplewidget', {

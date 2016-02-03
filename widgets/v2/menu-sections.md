@@ -21,10 +21,10 @@ This works in conjunction with the [menu](/widgets/v2/menu/) widget. This widget
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('menusections', 'menusectionsnav', {})|raw}}
+{{widget('menusections', 'menusectionsnav', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}

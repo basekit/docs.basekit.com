@@ -19,10 +19,10 @@ You can add a spacer widget to your template. This widget can be used to insert 
 
 To include a spacer widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('space', 'thisuniquewidgetname', {'height': '50'})|raw}}
+{{widget('space', 'thisuniquewidgetname', {'height': '50'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,4 +31,4 @@ To include a spacer widget in your template you will need to add the following l
 
 You can change the following options for the widget:
 
-* ```height```: The height of the spacer. Possible values: from ```10``` to ```250```
+* `height`: The height of the spacer. Possible values: from `10` to `250`

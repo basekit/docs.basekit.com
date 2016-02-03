@@ -21,20 +21,25 @@ You can add a single line signup form widget to your template to allow the visit
 
 To include a signup Form widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('signupform', 'emailsignup', {})|raw}}
+{{widget('signupform', 'emailsignup', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('signupform', 'emailsignup', {'text': 'Send', 'label': 'Your Email', 'formTitle': 'Signup Form', 'email': 'profile'})|raw}}
+{{widget('signupform', 'emailsignup', {
+  'text': 'Send',
+  'label': 'Your Email',
+  'formTitle': 'Signup Form',
+  'email': 'profile'
+})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -70,36 +75,36 @@ To include a signup Form widget in your template you will need to add the follow
 
 You can change the following options for the widget:
 
-* ```text```: The text on the button
+* `text`: The text on the button
 
-* ```italic```: The text style on the button. ```true``` or ```false``` (default)
+* `italic`: The text style on the button. `true` or `false` (default)
 
-* ```bold```: The text style on the button. ```true``` or ```false``` (default)
+* `bold`: The text style on the button. `true` or `false` (default)
 
-* ```align```: The text style on the button. You can set it:
+* `align`: The text style on the button. You can set it:
 
-  * ```justifyleft```
-  * ```justifyright```
-  * ```justifycenter``` (default)
-  * ```justifyfull```
+  * `justifyleft`
+  * `justifyright`
+  * `justifycenter` (default)
+  * `justifyfull`
 
-* ```fontSize```: The text style on the button. You can set it: ```inherit``` (default), ```14```, ```16```, ```18```, ```20```, ```22```, ```24```
+* `fontSize`: The text style on the button. You can set it: `inherit` (default), `14`, `16`, `18`, `20`, `22`, `24`
 
-* ```formTitle```: The subject for the email
+* `formTitle`: The subject for the email
 
-* ```label```: The text next to the email input field
+* `label`: The text next to the email input field
 
-* ```email```: The email address that the email will be sent to. It can be set to use the manage shared email address or put your own email address
+* `email`: The email address that the email will be sent to. It can be set to use the manage shared email address or put your own email address
 
-  * ```profiledefault```: The email address in the manage shared contact email address field
-  * ```example@example.com```: Could be set to custom email address
+  * `profiledefault`: The email address in the manage shared contact email address field
+  * `example@example.com`: Could be set to custom email address
 
-* ```goalSource```: The source of the URL after submit the form
+* `goalSource`: The source of the URL after submit the form
 
-  * ```profile```: It will use the internal link
-  * ```custom```: Could be set to custom email address
+  * `profile`: It will use the internal link
+  * `custom`: Could be set to custom email address
 
-* ```goalUrl```: The URL after the user submits the form
+* `goalUrl`: The URL after the user submits the form
 
-  * If the ```goalSource``` is set to ```profile```, it should be set to an internal link, e.g. ```home```
-  * If the ```goalSource``` is set to ```custom```, it should be set to an external link, e.g. ```www.mysite.com```
+  * If the `goalSource` is set to `profile`, it should be set to an internal link, e.g. `home`
+  * If the `goalSource` is set to `custom`, it should be set to an external link, e.g. `www.mysite.com`

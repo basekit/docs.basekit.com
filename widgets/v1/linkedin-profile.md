@@ -19,10 +19,10 @@ You can add a LinkedIn personal profile widget to your template. This profile UR
 
 To include a LinkedIn profile widget in your template you will need to add the following line:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('linkedinprofile', 'thisuniquewidgetname', {'linkedin': 'http://www.linkedin.com/in/johndoe'})|raw}}
+{{widget('linkedinprofile', 'thisuniquewidgetname', {'linkedin': 'http://www.linkedin.com/in/johndoe'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,5 +31,5 @@ To include a LinkedIn profile widget in your template you will need to add the f
 
 You can change the following options for the widget:
 
-* ```linkedin```: The LinkedIn profile public URL. For example: ```http://www.linkedin.com/in/johndoe```
+* `linkedin`: The LinkedIn profile public URL. For example: `http://www.linkedin.com/in/johndoe`
 

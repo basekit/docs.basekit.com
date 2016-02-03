@@ -15,16 +15,16 @@ This widget is only compatible with Editor **version 7.32 and above**.
 
 > **IMPORTANT:** This widget will only work as expected when the menu plugin is activated on the user's account.
 
-This widget will only work as expected in the ```blogpost.twig``` [page type](/templating/page-types/). Otherwise the engine will fallback to ```default.twig```. This widget will add a list of widgets to the page. The widget will feed off [plugin data](/data/) to populate itself.
+This widget will only work as expected in the `blogpost.twig` [page type](/templating/page-types/). Otherwise the engine will fallback to `default.twig`. This widget will add a list of widgets to the page. The widget will feed off [plugin data](/data/) to populate itself.
 
 ## Examples
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('blogpostlist', 'allblogposts', {})|raw}}
+{{widget('blogpostlist', 'allblogposts', {})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -99,7 +99,7 @@ This widget will only work as expected in the ```blogpost.twig``` [page type](/t
 
 ## Widget Options
 
-* ```postDisplayType``` (string): This will make the blog post list widget either display the summary or the whole post
+* `postDisplayType` (string): This will make the blog post list widget either display the summary or the whole post
 
-  * ```summary``` (default)
-  * ```post```
+  * `summary` (default)
+  * `post`

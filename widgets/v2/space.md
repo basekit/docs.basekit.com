@@ -18,10 +18,10 @@ The space widget is designed to allow the user to control spaces between pieces 
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
-  {{widget('space', 'pagespace', {'height': '20'})|raw}}
+{{widget('space', 'pagespace', {'height': '20'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -42,4 +42,4 @@ The space widget is designed to allow the user to control spaces between pieces 
 
 ## Widget options
 
-The only option available to the space widget is ```height```, which can be any pixel value (as shown in the above example). This can be changed by the user when they select the widget in the Editor.
+The only option available to the space widget is `height`, which can be any pixel value (as shown in the above example). This can be changed by the user when they select the widget in the Editor.

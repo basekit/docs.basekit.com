@@ -17,7 +17,7 @@ The feature widget is template widget designed to a large image overlaid with a 
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('feature', 'feature', {})|raw}}
@@ -29,7 +29,7 @@ By default the feature widget will only show the title and strapline, which will
 
 ### Example usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('feature', 'homepagefeature', {
@@ -74,40 +74,40 @@ The options available to the feature widget when developing a template can be di
 
 ### Text options
 
-* ```header```: The text shown for the heading.
+* `header`: The text shown for the heading.
 
-* ```strapline```: The text shown for the strapline.
+* `strapline`: The text shown for the strapline.
 
 ### Image options
 
-* ```defaultBgImg```: The default image shown in the background of the feature widget. The image must be in the template, e.g. ```asset('images/feature-image.png')```
+* `defaultBgImg`: The default image shown in the background of the feature widget. The image must be in the template, e.g. `asset('images/feature-image.png')`
 
-* ```positionTopPercentage```: The vertical position of the feature image stated in the previous option. Set using CSS  ```background-position``` as a percentage.
+* `positionTopPercentage`: The vertical position of the feature image stated in the previous option. Set using CSS  `background-position` as a percentage.
 
 ### Button options
 
-* ```buttonText```: The text shown for the button.
+* `buttonText`: The text shown for the button.
 
-* ```showBtn```: Whether to show the feature button or not, ```true``` to show or ```false``` to hide. If this is not set then it shall be hidden by default.
+* `showBtn`: Whether to show the feature button or not, `true` to show or `false` to hide. If this is not set then it shall be hidden by default.
 
-* ```italic```: Sets the button to italicised using an ```italic``` class on the button element, ```true``` or ```false``` respectively.
+* `italic`: Sets the button to italicised using an `italic` class on the button element, `true` or `false` respectively.
 
-* ```bold```: Sets the button to bold using a ```bold``` class on the button element, ```true``` or ```false``` respectively.
+* `bold`: Sets the button to bold using a `bold` class on the button element, `true` or `false` respectively.
 
-* ```fontSize```: Changes the button font size in pixel values, options are ```14```, ```16```, ```18```, ```20```, ```22```, ```24```
+* `fontSize`: Changes the button font size in pixel values, options are `14`, `16`, `18`, `20`, `22`, `24`
 
-* ```action```: Changes the button action type. Options are:
+* `action`: Changes the button action type. Options are:
 
-  * ```none```: No action will be set.
-  * ```internal```: Sets the action for internal pages, e.g. ```/blog```.
-  * ```external```: Sets the action for internal pages, e.g. ```http://docs.basekit.com```.
-  * ```email```:  Sets the action for emails.
+  * `none`: No action will be set.
+  * `internal`: Sets the action for internal pages, e.g. `/blog`.
+  * `external`: Sets the action for internal pages, e.g. `http://docs.basekit.com`.
+  * `email`:  Sets the action for emails.
 
-* ```target```: Sets the ```target``` attribute of the button. ```_blank``` to open the page in a new window or tab, or ```_self``` to open in the same window or tab.
+* `target`: Sets the `target` attribute of the button. `_blank` to open the page in a new window or tab, or `_self` to open in the same window or tab.
 
-* ```url```: To be used in conjunction with ```action```. See following examples:
+* `url`: To be used in conjunction with `action`. See following examples:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 ...
 'action': 'internal',

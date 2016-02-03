@@ -15,11 +15,11 @@ The image widget is a simple method of adding an image to a page with optional t
 
 ## Examples
 
-By default, the image widget must have a ```src``` option that is an image from the template. All other options are not essential.
+By default, the image widget must have a `src` option that is an image from the template. All other options are not essential.
 
 ### Basic usage
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('image', 'footerimage', {
@@ -33,7 +33,7 @@ By default, the image widget must have a ```src``` option that is an image from 
 
 In this example the image widget is being used to place a logo into the header area:
 
-{% highlight django %}
+{% highlight python %}
 {% raw %}
 
 {{widget('image', 'headerimage', {
@@ -76,18 +76,18 @@ In this example the image widget is being used to place a logo into the header a
 
 The image widget has a range of options, both for the content restraints but also for user information:
 
-* ```src```: The path of the image, this is relative to the template. This means that you will need to include the image in your images or assets directory of your template.
+* `src`: The path of the image, this is relative to the template. This means that you will need to include the image in your images or assets directory of your template.
 
-* ```title```: The title of the image, this will be applied to the ```title``` attribute of the ```img``` and the title shown in the caption details below the image.
+* `title`: The title of the image, this will be applied to the `title` attribute of the `img` and the title shown in the caption details below the image.
 
-* ```description```: The description shown below the image in the caption details.
+* `description`: The description shown below the image in the caption details.
 
-* ```alt```: The alternate text for when images fail to load in the browser, placed in the ```img``` ```alt``` attribute.
+* `alt`: The alternate text for when images fail to load in the browser, placed in the `img` `alt` attribute.
 
-* ```fileName```: The name shown in the Editor UI.
+* `fileName`: The name shown in the Editor UI.
 
-* ```fileSize```: The file size shown in KB in the Editor UI.
+* `fileSize`: The file size shown in KB in the Editor UI.
 
-* ```imageWidth```: The width of the image, set into the ```width``` attribute of the ```img```.
+* `imageWidth`: The width of the image, set into the `width` attribute of the `img`.
 
-The ```src```, ```title```, ```description```, ```alt```, and ```imageWidth``` can all be changed be the user within the Editor. The other options will be relative to the image and will be replaced if the image is changed.
+The `src`, `title`, `description`, `alt`, and `imageWidth` can all be changed be the user within the Editor. The other options will be relative to the image and will be replaced if the image is changed.
