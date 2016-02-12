@@ -22,7 +22,7 @@ To include an image widget in your template you will need to add the following l
 {% highlight python %}
 {% raw %}
 
-{{widget('image', 'thisuniquewidgetname', { 'src': asset('furcoat/images/my-image.jpg'), 'title': 'my image', 'alt': 'my image', 'fileName': 'my-image.jpg', 'fileSize': '58kb', 'imageSize': '440 x 660', 'imageWidth': '90px'})|raw}}
+{{widget('image', 'thisuniquewidgetname', { 'src': asset("furcoat/images/my-image.jpg"), 'title': 'my image', 'alt': 'my image', 'fileName': 'my-image.jpg', 'fileSize': '58kb', 'imageSize': '440 x 660', 'imageWidth': '90px'})|raw}}
 
 {% endraw %}
 {% endhighlight %}
@@ -31,7 +31,7 @@ To include an image widget in your template you will need to add the following l
 
 You can change the following options for the widget:
 
-* `src`: A relative url of the image, e.g. `asset('furcoat/images/my-image.jpg')`
+* `src`: A relative url of the image, e.g. `asset("furcoat/images/my-image.jpg")`
 
 * `title` (optional): The image title
 

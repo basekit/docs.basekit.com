@@ -35,7 +35,7 @@ By default the feature widget will only show the title and strapline, which will
 {{widget('feature', 'homepagefeature', {
   'header': 'This is the header',
   'strapline': 'This is the strapline',
-  'defaultBgImg': asset('images/feature-image.jpg'),
+  'defaultBgImg': asset("images/feature-image.jpg"),
   'positionTopPercentage': '50',
   'showBtn': true,
   'buttonText': 'This is the button',
@@ -80,7 +80,7 @@ The options available to the feature widget when developing a template can be di
 
 ### Image options
 
-* `defaultBgImg`: The default image shown in the background of the feature widget. The image must be in the template, e.g. `asset('images/feature-image.png')`
+* `defaultBgImg`: The default image shown in the background of the feature widget. The image must be in the template, e.g. `asset("images/feature-image.png")`
 
 * `positionTopPercentage`: The vertical position of the feature image stated in the previous option. Set using CSS  `background-position` as a percentage.
 

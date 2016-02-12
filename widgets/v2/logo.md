@@ -35,7 +35,7 @@ The logo widget only has one option of a default logo, which is set with `defaul
 {% raw %}
 
 {{widget('logo', 'sitelogo', {
-  "defaultlogo": asset('images/logo.png')
+  'defaultlogo': asset("images/logo.png")
 })|raw}}
 
 {% endraw %}

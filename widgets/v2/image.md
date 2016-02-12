@@ -23,7 +23,7 @@ By default, the image widget must have a `src` option that is an image from the 
 {% raw %}
 
 {{widget('image', 'footerimage', {
-  'src': asset('/images/feature-bg.jpg')
+  'src': asset("/images/feature-bg.jpg")
 })|raw}}
 
 {% endraw %}
@@ -37,7 +37,7 @@ In this example the image widget is being used to place a logo into the header a
 {% raw %}
 
 {{widget('image', 'headerimage', {
-  'src': asset('images/logo.png'),
+  'src': asset("images/logo.png"),
   'title': 'The title text',
   'description': 'The description text',
   'alt': 'The alternate text',
