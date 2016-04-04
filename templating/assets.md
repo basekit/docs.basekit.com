@@ -6,7 +6,7 @@ title: Assets
 
 # Assets
 
-The *inclusion* of assets into a template is much the same as including them into a normal site. There are certain file types that we accept within a git repository.
+The inclusion of assets into a template is much the same as including them into a normal site. There are certain file types that we accept within a git repository.
 
 ## HTML File Types
 
