@@ -3,35 +3,41 @@ layout: doc
 title: Assets
 ---
 
+
 # Assets
 
-The inclusion of assets into a template is much the same as including them into a normal site. There are certain file types that we accept within a git repository.
+The *inclusion* of assets into a template is much the same as including them into a normal site. There are certain file types that we accept within a git repository.
 
 ## HTML File Types
 
-- `*.twig`
+* `\*.twig`
+
 
 ## CSS File Types
 
-- `*.less`
-- `*.css`
+* `\*.less`
+* `\*.css`
+
 
 ## Image File Types
 
-- `*.jpg`
-- `*.jpeg`
-- `*.png`
-- `*.gif`
-- `*.svg`
+* `\*.jpg`
+* `\*.jpeg`
+* `\*.png`
+* `\*.gif`
+* `\*.svg`
+
 
 ## JavaScript File Types
 
-- `*.js`
-- `*.json`
+* `\*.js`
+* `\*.json`
+
 
 ## Other File Types
 
-- `*.md`
+* `\*.md`
+
 
 ### File Structure
 
@@ -40,15 +46,15 @@ A common BaseKit repository directory structure looks like:
 {% highlight text %}
 {% raw %}
 
-images/ 
-  - feature-bg.jpg 
-  - icons.png 
-  - logo.png 
-README.md 
-default.twig 
-example.jpg 
-home.twig 
-metadata.json 
+images/
+  - feature-bg.jpg
+  - icons.png
+  - logo.png
+README.md
+default.twig
+example.jpg
+home.twig
+metadata.json
 stylesheet.less
 
 {% endraw %}
@@ -57,10 +63,9 @@ stylesheet.less
 ## Recommendations
 
 * If you include any other file types, the repository will not upload to a BaseKit environment
-
 * Please use [a-z_-] characters only
-
 * There is a 100MB size limit on repositories, anything over this won't be processed
+
 
 ## asset() & image() functions
 
@@ -68,7 +73,7 @@ BaseKit templates can be deployed to multiple environments, so we refer to a fil
 
 For example, to reference `logo.png` in the images directory:
 
-In `*.less` files you use the `image()` function:
+In `\*.less` files you use the `image()` function:
 
 {% highlight scss %}
 {% raw %}
@@ -78,9 +83,9 @@ In `*.less` files you use the `image()` function:
 {% endraw %}
 {% endhighlight %}
 
-In `*.twig` files you use the `asset()` function.
+In `\*.twig` files you use the `asset()` function.
 
-You can also reference other files types within *twig and (as of version 7.53) `*.less` files:
+You can also reference other files types within \*twig and (as of version 7.53) `\*.less` files:
 
 {% highlight html %}
 {% raw %}
@@ -97,7 +102,7 @@ You can also reference other files types within *twig and (as of version 7.53) `
 {% endraw %}
 {% endhighlight %}
 
-> **IMPORTANT:** Using the `asset()` function in `*.less` files is only available in **version 7.53 and above**.
+> **IMPORTANT:** Using the `asset()` function in `\*.less` files is only available in **version 7.53 and above**.
 
 {% highlight scss %}
 {% raw %}
