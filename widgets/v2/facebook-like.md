@@ -11,7 +11,7 @@ versions:
 
 # Facebook Like
 
-> **IMPORTANT:** This widget is only available via the Editor, it cannot be added to a custom template. As of **version 8.00 and above**.
+> **IMPORTANT:** This widget is only available as a 'zone-widget', it cannot be coded in to a custom template. As of **version 8.00 and above**.
 
 #### HTML structure:
 
