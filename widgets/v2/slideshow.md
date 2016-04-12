@@ -51,7 +51,7 @@ The above example will display an area in the template where the user can select
   {
       'imageHeight':'350',
       'imageWidth':'400',
-      'url':'http://placehold.it/350x400', 
+      'url':'http://placehold.it/350x400',
       'title':'Second slide title',
       'description': 'Second slide description'
     },
@@ -131,6 +131,10 @@ You can change the following options for the widget:
 
 * `transType`: The type of transition between slides. There are currently 3 possible options; `dissolve`, `fade`, and `none`.
 
+* `showTitle`: Whether to show or hide the title of each slide. `true` for show and `false` for hide.
+
+* `showDescription`: Whether to show or hide the description of each slide. `true` for show and `false` for hide.
+
 * `showButtons`: Whether to show or hide the previous and next controls. `true` for show and `false` for hide.
 
 * `showBullets`: Whether to show or hide the numbered pagination controls. `true` for show and `false` for hide.
@@ -160,4 +164,3 @@ You can change the following options for the widget:
 {% endhighlight %}
 
 To see the above example in context please refer to the [Example usage](#example-usage). The images will be shown as default in the template, but they won't be shown in the images panel of the Editor. If the user replaces the images they will no longer be accessible, you will need to state them in the metadata file in order for them to appear in the images panel. The `url` can be either an internal or external image path, all other image settings are optional.
-
