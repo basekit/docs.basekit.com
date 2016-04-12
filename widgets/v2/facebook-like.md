@@ -35,7 +35,6 @@ To include a Facebook Like widget in your template you will need to add the foll
 {% raw %}
 
 {{widget('facebooklike', 'likebutton', {
-  text: 'FaceBook Like',
   showFaces: 'true',
   action: 'like',
   colorscheme: 'light',
@@ -67,8 +66,6 @@ To include a Facebook Like widget in your template you will need to add the foll
 
 You can change the following options for the widget:
 
-* `text`: The text on the widget
-
 * `showFaces`: Display the Facebook profile pictures below the button. `true` or `false`
 
 * `action`: The verb to display on the button. `Like` or `recommend`
@@ -83,7 +80,7 @@ You can change the following options for the widget:
   * if the `layout` is `box_count`, set it to `90`
   * if the `showFace` is `true` and if the `layout` is not `box_count`, set it to `80`
   * if the `showFace` is `false`, set it to `30`
-  
+
 * `font`: The button text font. `arial`, `lucida grande`, `segoe ui`, `tahoma`, `trebuchet ms`, `verdana`
 
 * `og_url`: The page visitors are going to like, e.g. `www.mysite.com`
