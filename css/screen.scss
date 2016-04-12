@@ -497,6 +497,26 @@ svg {
 		font-size: 1em;
 	}
 
+// Highlighter
+:target {
+	position: relative;
+	z-index: 0;
+	&:after {
+		z-index: -1;
+		content: "";
+		position: absolute;
+		top: -2px;
+		left: -6px;
+		right: -2px;
+		bottom: -2px;
+		animation: highlight 1s ease;
+	}
+}
+@keyframes highlight {
+	0% { background: $highlighted-text; }
+	100% { background: transparent; }
+}
+
 // Forms
 fieldset {
 	border: none;
