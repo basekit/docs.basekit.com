@@ -57,12 +57,12 @@ To include a social icons widget in your template you will need to add the follo
   <div class="bk-socialicons  socialicons  widget__socialicons">
     <ul class="social-list  socialicons__social-list">
       <li class="social-item  socialicons__social-item">
-        <a class="social-link  icon  icon--twitter  socialicons__social-link" href="https://twitter.com/twitter.com" target="_blank">
+        <a class="social-link  icon  icon--twitter  socialicons__social-link" href="twitter.com" target="_blank">
           <span class="social-name  socialicons__social-name">Twitter</span>
         </a>
       </li>
       <li class="social-item  socialicons__social-item">
-        <a class="social-link  icon  icon--facebook  socialicons__social-link" href="facebook.com " target="_blank">
+        <a class="social-link  icon  icon--facebook  socialicons__social-link" href="facebook.com" target="_blank">
           <span class="social-name  socialicons__social-name">Facebook</span>
         </a>
       </li>

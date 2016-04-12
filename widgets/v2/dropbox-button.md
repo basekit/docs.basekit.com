@@ -33,7 +33,7 @@ To include a Dropbox widget in your template you will need to add the following 
 {% raw %}
 
 {{widget('dropbox', 'downloadbutton', {
-  'align': 'left',
+  'align': 'widget-align-left',
   'showFileName': true
 })|raw}}
 
