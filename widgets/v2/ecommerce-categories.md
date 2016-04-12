@@ -22,7 +22,7 @@ This widget is only compatible with Editor **version 7.32 and above**.
 {% highlight python %}
 {% raw %}
 
-{{widget('ecomcategories', 'productcategories', {})|raw}}
+{{widget('ecomcategorieslist', 'productcategories', {})|raw}}}
 
 {% endraw %}
 {% endhighlight %}
@@ -32,7 +32,7 @@ This widget is only compatible with Editor **version 7.32 and above**.
 {% highlight python %}
 {% raw %}
 
-{{widget('ecomcategories', 'productcategories', {
+{{widget('ecomcategorieslist', 'productcategories', {
   'title': 'Categories',
   'showCount', true
 })|raw}}
