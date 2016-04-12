@@ -68,7 +68,7 @@ You can change the following options for the widget:
 
 * `showFaces`: Display the Facebook profile pictures below the button. `true` or `false`
 
-* `action`: The verb to display on the button. `Like` or `recommend`
+* `action`: The verb to display on the button. `like` or `recommend`
 
 * `colorscheme`: The colour scheme. `light` or `dark`
 
@@ -83,12 +83,4 @@ You can change the following options for the widget:
 
 * `font`: The button text font. `arial`, `lucida grande`, `segoe ui`, `tahoma`, `trebuchet ms`, `verdana`
 
-* `og_url`: The page visitors are going to like, e.g. `www.mysite.com`
-
-* `og_title` (optional): The liked page title, e.g. `Home Page`
-
-* `og_description` (optional): The liked page title. `This is the home page`
-
-* `og_site_name` (optional): The liked page site name, e.g. `BaseKit`
-
-* `og_image` ( optional): The image showing alongside the news item, e.g. `http://image.basekit.com/live77891_bk13-imac-and-iphone-hp-new-headerv8-big.png`
+* `thisUrl`: The page visitors are going to like, e.g. `www.mysite.com`
