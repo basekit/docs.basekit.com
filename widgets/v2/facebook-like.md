@@ -16,7 +16,7 @@ versions:
 #### HTML structure:
 
 {% highlight html %}
-{% raw %} 
+{% raw %}
 
 <div id="page-zones__template-widgets__likebutton" data-name="facebooklike" class="widget  widget--template-widget">
   <div class="bk-facebooklike  facebooklike  widget__facebooklike">
