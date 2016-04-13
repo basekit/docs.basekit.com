@@ -40,15 +40,15 @@ A common BaseKit repository directory structure looks like:
 {% highlight text %}
 {% raw %}
 
-images/ 
-  - feature-bg.jpg 
-  - icons.png 
-  - logo.png 
-README.md 
-default.twig 
-example.jpg 
-home.twig 
-metadata.json 
+images/
+  - feature-bg.jpg
+  - icons.png
+  - logo.png
+README.md
+default.twig
+example.jpg
+home.twig
+metadata.json
 stylesheet.less
 
 {% endraw %}

@@ -40,7 +40,9 @@ To include a social icons widget in your template you will need to add the follo
   'facebook': 'https://www.facebook.com/mycompanyname',
   'twitter': 'https://twitter.com/mycompanyname',
   'youtube': 'https://www.youtube.com/user/mycompanyname',
-  'rss': 'http://news.bbc.co.uk/1/hi/help/rss/default.stm'
+  'rss': 'http://news.bbc.co.uk/1/hi/help/rss/default.stm',
+  'pinterest': 'https://www.pinterest.com/mycompanyname',
+  'instagram': 'https://www.instagram.com/mycompanyname'
 })|raw}}
 
 {% endraw %}
@@ -55,12 +57,12 @@ To include a social icons widget in your template you will need to add the follo
   <div class="bk-socialicons  socialicons  widget__socialicons">
     <ul class="social-list  socialicons__social-list">
       <li class="social-item  socialicons__social-item">
-        <a class="social-link  icon  icon--twitter  socialicons__social-link" href="https://twitter.com/twitter.com" target="_blank">
+        <a class="social-link  icon  icon--twitter  socialicons__social-link" href="twitter.com" target="_blank">
           <span class="social-name  socialicons__social-name">Twitter</span>
         </a>
       </li>
       <li class="social-item  socialicons__social-item">
-        <a class="social-link  icon  icon--facebook  socialicons__social-link" href="facebook.com " target="_blank">
+        <a class="social-link  icon  icon--facebook  socialicons__social-link" href="facebook.com" target="_blank">
           <span class="social-name  socialicons__social-name">Facebook</span>
         </a>
       </li>
@@ -84,6 +86,16 @@ To include a social icons widget in your template you will need to add the follo
           <span class="social-name  socialicons__social-name">YouTube</span>
         </a>
       </li>
+      <li class="social-item  socialicons__social-item">
+        <a class="social-link  icon  icon--pinterest  socialicons__social-link" href="pinterest.com " target="_blank">
+          <span class="social-name  socialicons__social-name">Pinterest</span>
+        </a>
+      </li>
+      <li class="social-item  socialicons__social-item">
+        <a class="social-link  icon  icon--instagram  socialicons__social-link" href="instagram.com " target="_blank">
+          <span class="social-name  socialicons__social-name">Instagram</span>
+        </a>
+      </li>
     </ul>
   </div>
 </div>
@@ -93,7 +105,7 @@ To include a social icons widget in your template you will need to add the follo
 
 ## Widget options
 
-You can change the following options for the widget. You can use custom links or use the shared profile data: 
+You can change the following options for the widget. You can use custom links or use the shared profile data:
 
 * `googleplus`: The Google+ URL. i.e., `https://plus.google.com/101946323226233111530` or `profile`
 
@@ -106,6 +118,10 @@ You can change the following options for the widget. You can use custom links or
 * `youtube`: The Youtube URL. i.e., `https://www.youtube.com/user/mycompanyname` or `profile`
 
 * `rss`: The RSS URL. i.e, `http://news.bbc.co.uk/1/hi/help/rss/default.stm` or `profile`
+
+* `pinterest`: The Pinterest URL. i.e., `https://www.pinterest.com/mycompanyname` or `profile`
+
+* `instagram`: The Instagram URL. i.e, `https://www.instagram.com/mycompanyname` or `profile`
 
 * `align`: Sets the social icon alignment using classes on the surround `div` element. The following options are available:
 
