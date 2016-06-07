@@ -12,19 +12,33 @@ navmain:
 
 navdocs:
 
-# GETTING STARTED
-- title: Getting Started
-  url: /getting-started/
+# GETTING STARTED WITH V7
+- title: Getting Started (V7)
+  url: /v7/getting-started/
   icon: milestone
   subnav:
   - title: Local Development
-    url: /getting-started/local-development/
+    url: /v7/getting-started/local-development/
   - title: Downloading a Template
-    url: /getting-started/downloading/
+    url: /v7/getting-started/downloading/
   - title: Editing a Template
-    url: /getting-started/editing/
+    url: /v7/getting-started/editing/
   - title: Uploading a Template
-    url: /getting-started/uploading/
+    url: /v7/getting-started/uploading/
+
+# GETTING STARTED WITH V8
+- title: Getting Started (V8)
+  url: /v8/getting-started/
+  icon: milestone
+  subnav:
+  - title: Local Development
+    url: /v8/getting-started/local-development/
+  - title: Downloading a Template
+    url: /v8/getting-started/downloading/
+  - title: Editing a Template
+    url: /v8/getting-started/editing/
+  - title: Uploading a Template
+    url: /v8/getting-started/uploading/
 
 # TEMPLATING
 - title: Templating
