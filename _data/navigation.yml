@@ -28,6 +28,7 @@ navdocs:
 
 # GETTING STARTED WITH V8
 - title: Getting Started with V8
+  url: /v8/getting-started/
   icon: milestone
   subnav:
   - title: Downloading a Template
@@ -62,7 +63,7 @@ navdocs:
   subnav:
   - title: Metadata
     url: /v8/templating/metadata/
-  - title: Using Less
+  - title: Using LESS
     url: /v8/templating/less/
   - title: Style Variables
     url: /v8/templating/style-variables/

@@ -5,6 +5,8 @@ title: Using LESS in V7
 
 # Using LESS in V7
 
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Using LESS in V8](/v8/templating/less/).
+
 [LESS](http:// lesscss.org/) extends CSS with dynamic behaviour such as **mixins, operations, functions and variables**. As an extension to CSS, LESS is not only backwards compatible with CSS, but the extra features it adds use existing CSS syntax. What this means is that you can write leaner code very quickly.
 
 ## LESS Usage

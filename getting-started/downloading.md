@@ -5,6 +5,8 @@ title: Downloading a Template in V7
 
 # Downloading a Template in V7
 
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Downloading a Template in V8](/v8/getting-started/downloading/).
+
 What you'll need to download a template:
 
 * A local web server application (for example [MAMP for Mac OS X or Windows](/getting-started/local-development/#install-a-local-web-server-application))

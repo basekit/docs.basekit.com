@@ -5,6 +5,8 @@ title: Metadata in V7
 
 # Metadata in V7
 
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Metadata in V8](/v8/templating/metadata/).
+
 All templates must contain a `metadata.json` file. This file provides key information about your template to the Editor environments on which it is installed.
 
 ## Properties of Metadata.json

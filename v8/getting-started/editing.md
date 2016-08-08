@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Editing a Template in V8
+title: Editing a Template for V8
 ---
 
-# Editing a Template in V8
+# Editing a Template for V8
 
 This document will explain how to use our TDK and how to upload that final template. If you haven’t downloaded your template for editing yet please check out the [How to download a template](/getting-started/downloading/) documentation.
 

@@ -5,6 +5,8 @@ title: Getting Started with V7
 
 # Getting Started with V7
 
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Getting Started with V8](/v8/getting-started/).
+
 You'll need the following before you start working on a template:
 
 1. ## Access to the Editor

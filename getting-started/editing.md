@@ -5,6 +5,8 @@ title: Editing a Template for V7
 
 # Editing a Template for V7
 
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Editing a Template for V8](/v8/getting-started/editing/).
+
 This document will explain how to use our TDK and how to upload that final template. If you haven’t downloaded your template for editing yet please check out the [How to download a template](/getting-started/downloading/) documentation.
 
 ![TDK](/assets/content/getting-started/tdk.png)
