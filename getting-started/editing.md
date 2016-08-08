@@ -1,8 +1,6 @@
 ---
 layout: doc
-title: Editing a Template (V7)
-redirect_from:
-  - /getting-started/editing/
+title: Editing a Template with V7
 ---
 
 # Editing a Template

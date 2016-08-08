@@ -1,8 +1,6 @@
 ---
 layout: doc
-title: Downloading a Template (V7)
-redirect_from:
-  - /getting-started/downloading/
+title: Downloading a Template with V7
 ---
 
 # How to Download a Template

@@ -1,8 +1,6 @@
 ---
 layout: doc
-title: Getting Started (V7)
-redirect_from:
-  - /getting-started/
+title: Getting Started with V7
 ---
 
 # Getting Started

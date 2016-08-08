@@ -1,8 +1,6 @@
 ---
 layout: doc
-title: Uploading a Template (V7)
-redirect_from:
-  - /getting-started/uploading/
+title: Uploading a Template with V7
 ---
 
 # Upload a Template to The Editor

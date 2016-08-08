@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Local Development (V8)
+title: Local Development with V7
 ---
 
 # Local Development
