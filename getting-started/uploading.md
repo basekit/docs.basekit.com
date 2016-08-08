@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Uploading a Template with V7
+title: Uploading a Template in V7
 ---
 
-# Upload a Template to The Editor
+# Upload a Template to The Editor in V7
 
 When your developer account has been set up. You will be able to upload templates via the Template section within your account. This can be done by uploading a ZIP or using a GIT repository.
 

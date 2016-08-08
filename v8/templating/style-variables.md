@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Style Variables
+title: Style Variables in V8
 ---
 
 TBC

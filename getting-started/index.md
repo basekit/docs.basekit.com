@@ -3,7 +3,7 @@ layout: doc
 title: Getting Started with V7
 ---
 
-# Getting Started
+# Getting Started with V7
 
 You'll need the following before you start working on a template:
 

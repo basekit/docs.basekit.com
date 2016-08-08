@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Using LESS
+title: Using LESS in V7
 ---
 
-# Using LESS
+# Using LESS in V7
 
 [LESS](http:// lesscss.org/) extends CSS with dynamic behaviour such as **mixins, operations, functions and variables**. As an extension to CSS, LESS is not only backwards compatible with CSS, but the extra features it adds use existing CSS syntax. What this means is that you can write leaner code very quickly.
 

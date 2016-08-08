@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Downloading a Template with V7
+title: Downloading a Template in V7
 ---
 
-# How to Download a Template
+# Downloading a Template in V7
 
 What you'll need to download a template:
 

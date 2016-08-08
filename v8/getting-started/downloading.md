@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Downloading a Template (V8)
+title: Downloading a Template in V8
 ---
 
-# How to Download a Template
+# How to Download a Template in V8
 
 What you'll need to download a template:
 
