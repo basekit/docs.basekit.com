@@ -29,24 +29,15 @@ Once you have made your code changes you might want to 'update' with the Templat
 
 If you are happy with your changes you can then save the file, convert the template into a zip file, and upload it back to the Editor. Zip the file back up with your changes click on the 'Save as Zip' button. You will then need to find your zip file on your computer - This would normally be where your downloaded items end up.
 
-## Uploading to the Editor
-
-Open up the Editor and click on the template panel on the left hand side.
-
-{% include imagecenter.html image="/assets/content/getting-started/template-tab.png" alt="template tab" %}
-
-Click on Upload template as zip button.
-
-{% include imagecenter.html image="/assets/content/getting-started/download-template-2.png" alt="upload template" %}
-
-You’ll automatically be directed to a page where you will need to choose your template zip file:
-
-{% include imagecenter.html image="/assets/content/getting-started/import-template.png" alt="import template" %}
-
-Once you have selected your file click on the **Upload** button.
-
-Your template and any changes made will have uploaded to the Editor for you to make further content changes if needed.
-
 ## What's next?
 
 Check out the documentation on [uploading a template](/getting-started/uploading/).
+
+Key points to make:
+
+- What editing a template is about
+- What you can edit a template with
+  - I the BaseKit editor, using the code editor
+  - Using your own code editor locally
+- Seeing your changes when you edit locally
+- What's next? Uploading a template

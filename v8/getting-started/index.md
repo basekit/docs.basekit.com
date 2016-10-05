@@ -5,26 +5,14 @@ title: Getting Started with V8
 
 # Getting Started with V8
 
-You'll need the following before you start working on a template:
+## TBC
 
-1. ## Access to the Editor
-  * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#enable-developer-mode).
-  * If you already have an account but are not logged in, do so now.
-  * Don't have an account? Head to our [developer partner page](http://www.basekit.com/our-partners) to find a partner to sign up with.
+Key points to make:
 
-2. ## Enable Developer Mode
-   To do this, simply click the **Developer** tab in the editor.
-   By accepting the terms and conditions you are confirming you have a good knowledge of HTML and CSS, as you will not be able to use this feature without these skills.
-
-3. ## Editing code
-   When opening the **Developer** tab the code editor will appear. You can start editing your template's files via this editor. Once you have completed your changes, click Save. Your site will reload and your changes will be visible.
-
-{% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}
-
----
-
-## Developing Locally
-
-BaseKit has built the **Template Development Kit**, which allows you to view and run templates on your own machine. Simply follow the instructions on this page: **[Building templates on your local machine](/getting-started/local-development/)**.
-
-{% include imagecenter.html image="/assets/content/getting-started/tdk.png" alt="BaseKit Code Editor" %}
+- Mention v7, but don't rely on the reader to have used v7
+- Link to certain sections of v7 if it simplifies things
+- What's different about v7 and v8
+- Link users to partners with v8 installed
+- How to enable developer mode in v8
+- What the developer mode looks like in v8 and how it works
+- What the new TDK looks like and how things work

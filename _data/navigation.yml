@@ -17,10 +17,10 @@ navdocs:
   url: /getting-started/
   icon: milestone
   subnav:
-  - title: Local Development
-    url: /getting-started/local-development/
   - title: Downloading a Template
     url: /getting-started/downloading/
+  - title: Local Development
+    url: /getting-started/local-development/
   - title: Editing a Template
     url: /getting-started/editing/
   - title: Uploading a Template

@@ -7,7 +7,6 @@ title: Uploading a Template in V7
 
 > **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Upload a Template to The Editor in V8](/v8/getting-started/uploading/).
 
-
 When your developer account has been set up. You will be able to upload templates via the Template section within your account. This can be done by uploading a ZIP or using a GIT repository.
 
 ## Getting to the custom templates section
@@ -87,3 +86,13 @@ This will start the process of pulling the template down into your account. This
 #### Does pulling these changes affect my live site?
 
 It will update the template used in the editor but to see the changes live, you will need to publish your site again.
+
+Key points to make:
+
+- What will you be uploading and where will it be
+- What you need before you can upload a template
+  - The template as a zip file
+  - Access to the editor and the develop mode
+- Steps to download a template
+  - Login into the editor
+  - Navigate to the developer section
