@@ -83,6 +83,7 @@ body {
 		> ol,
 		> blockquote,
 		ol > li,
+		ol p,
 		.highlight,
 		.image {
 			margin-bottom: 2.6em;
@@ -90,7 +91,8 @@ body {
 		p, ol, ul {
 			& + .highlight,
 			& + .image,
-			& + blockquote {
+			& + blockquote,
+			& + ul {
 				margin-top: -2em;
 			}
 		}

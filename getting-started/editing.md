@@ -15,7 +15,17 @@ Welcome to the Template Viewer/TDK where you can view your template on your loca
 
 ## Your code editor
 
-Use your [code editor](/getting-started/local-development/#download-a-code-editor) of choice to open your chosen template. In our example below we are using [Sublime Text](http://www.sublimetext.com/3) editor:
+Use your [code editor](/getting-started/local-development/#download-a-code-editor) of choice to open your chosen template.
+
+In order to start developing a template, you’ll need to download a code editor of your choice.
+We recommend using:
+
+- [Sublime Text 3](http://www.sublimetext.com/3), for Windows and Mac OS X
+- [Coda 2](http://panic.com/coda/) for Mac OS X
+- [Notepad++](http://notepad-plus-plus.org/) for Windows
+- [Atom Editor](https://atom.io/), for Windows and Mac OS X
+
+In our example below we are using [Sublime Text](http://www.sublimetext.com/3) editor:
 
 {% include imagecenter.html image="/assets/content/getting-started/sublime.png" alt="Sublime Text" %}
 
@@ -32,12 +42,3 @@ If you are happy with your changes you can then save the file, convert the templ
 ## What's next?
 
 Check out the documentation on [uploading a template](/getting-started/uploading/).
-
-Key points to make:
-
-- What editing a template is about
-- What you can edit a template with
-  - I the BaseKit editor, using the code editor
-  - Using your own code editor locally
-- Seeing your changes when you edit locally
-- What's next? Uploading a template

@@ -86,13 +86,3 @@ This will start the process of pulling the template down into your account. This
 #### Does pulling these changes affect my live site?
 
 It will update the template used in the editor but to see the changes live, you will need to publish your site again.
-
-Key points to make:
-
-- What will you be uploading and where will it be
-- What you need before you can upload a template
-  - The template as a zip file
-  - Access to the editor and the develop mode
-- Steps to download a template
-  - Login into the editor
-  - Navigate to the developer section
