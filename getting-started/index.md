@@ -7,7 +7,9 @@ title: Getting Started with V7
 
 > **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Getting Started with V8](/v8/getting-started/).
 
-Before you start editing or creating your own template you'll need the following:
+In this document we'll explain the main elements you'll need in order to get started with editing, or creating, your own template.
+
+To get started you're going to need the following:
 
 1. ## Access to the Editor
    If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#enable-developer-mode).

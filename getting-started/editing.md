@@ -7,15 +7,9 @@ title: Editing a Template for V7
 
 > **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Editing a Template for V8](/v8/getting-started/editing/).
 
-This document will explain how to use our TDK and how to upload that final template. If you haven’t downloaded your template for editing yet please check out the [How to download a template](/getting-started/downloading/) documentation.
-
-![TDK](/assets/content/getting-started/tdk.png)
-
-Welcome to the Template Viewer/TDK where you can view your template on your local machine.
+After you have set up the Template Development Kit in [your local development environment](/getting-started/local-development/) you'll want to start editing a template, be that one [you downloaded](/getting-started/downloading/) or one you made yourself.
 
 ## Your code editor
-
-Use your [code editor](/getting-started/local-development/#download-a-code-editor) of choice to open your chosen template.
 
 In order to start developing a template, you’ll need to download a code editor of your choice.
 We recommend using:
@@ -29,7 +23,7 @@ In our example below we are using [Sublime Text](http://www.sublimetext.com/3) e
 
 {% include imagecenter.html image="/assets/content/getting-started/sublime.png" alt="Sublime Text" %}
 
-You will see your folder options - Feel free to rename these or take a look inside.
+You'll notice as well that we're using the template June, you can check out the code for [this template on GitHub](https://github.com/basekit-templates/june). The template has a specific folder structure, using `.twig` files to set out page layouts and partials. As well as `.less` files for styling the template. To find out more template development check out [Using LESS](/templating/less/), using [Twig](/templating/twig/) along with other sections within Templating.
 
 ## Viewing your changes
 
