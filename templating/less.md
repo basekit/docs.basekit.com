@@ -158,15 +158,15 @@ The Editor also supports server-side LESS rendering and well as client-side rend
 This means we need to inject a path pointing to the LESS file:
 
 {% highlight sass %}
-
-@import "@{templateCommon}/basekit-bootstrap.less";
+{% raw %}
+@import "@{templateCommon}/bk-less-framework.less";
 @import "@{templateLocal}/css/partial.less";
-
+{% endraw %}
 {% endhighlight %}
 
 #### templateCommon
 
-The `"@{templateCommon}"` variable will be replaced with a path pointing to the Template Development Kit common template resources directory, where you can reference files such as `basekit-bootstrap.less`.
+The `"@{templateCommon}"` variable will be replaced with a path pointing to the Template Development Kit common template resources directory, where you can reference files such as `basekit-bootstrap.less` or the newer `bk-less-framework.less`.
 
 #### templateLocal
 
