@@ -5,7 +5,7 @@ title: Getting Started with V7
 
 # Getting Started with V7
 
-> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Getting Started with V8](/v8/getting-started/).
+> **Note**: If you're using version 8 of the Editor please see the V8 documentation: [Getting Started with V8](/v8/getting-started/).
 
 In this document we'll explain the main elements you'll need in order to get started with editing, or creating, your own template.
 

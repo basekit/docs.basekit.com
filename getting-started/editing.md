@@ -5,7 +5,7 @@ title: Editing a Template for V7
 
 # Editing a Template for V7
 
-> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Editing a Template for V8](/v8/getting-started/editing/).
+> **Note**: If you're using version 8 of the Editor please see the V8 documentation: [Editing a Template for V8](/v8/getting-started/editing/).
 
 After you have set up the Template Development Kit in [your local development environment](/getting-started/local-development/) you'll want to start editing a template, be that one [you downloaded](/getting-started/downloading/) or one you made yourself.
 

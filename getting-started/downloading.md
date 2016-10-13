@@ -5,7 +5,7 @@ title: Downloading a Template in V7
 
 # Downloading a Template in V7
 
-> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Downloading a Template in V8](/v8/getting-started/downloading/).
+> **Note**: If you're using version 8 of the Editor please see the V8 documentation: [Downloading a Template in V8](/v8/getting-started/downloading/).
 
 Once you've activated the **Developer Mode** within the Editor you can download the template you're currently using. Which means you can make small changes to the template, or use it as a basis for your own custom template. If you haven't activated Developer Mode, see [Getting Started](/getting-started/).
 
