@@ -200,7 +200,7 @@ To reference the css files in the CSS directory, you would place the following c
 
 ### Special Functions for LESS
 
-There are many functions that you can use within LESS files. Most of them are found within the library itself. See [here](http:// lesscss.org/#reference) for LESS functions references.
+There are many functions that you can use within LESS files. Most of them are found within the library itself. See [here](http://lesscss.org/#reference) for LESS functions references.
 
 We have built some other functions so we can achieve the most advanced responsive effects.
 
@@ -224,7 +224,7 @@ h1 {
 
 ### Example CSS File
 
-Here is a simple example of how stylesheet.less files could be created. You can view more examples [on GitHub](https:// github.com/basekit-templates).
+Here is a simple example of how stylesheet.less files could be created. You can view more examples [on GitHub](https://github.com/basekit-templates).
 
 {% highlight scss %}
 

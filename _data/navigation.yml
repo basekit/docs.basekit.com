@@ -61,12 +61,14 @@ navdocs:
 - title: Templating with V8
   icon: file-code
   subnav:
+  - title: Styles Overview
+    url: /v8/templating/styles-overview/
+  - title: Style Variables in V8
+    url: /v8/templating/style-variables-in-v8/
   - title: Metadata
     url: /v8/templating/metadata/
   - title: Using LESS
     url: /v8/templating/less/
-  - title: Style Variables
-    url: /v8/templating/style-variables/
 
 
 # DATA
