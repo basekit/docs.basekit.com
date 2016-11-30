@@ -26,5 +26,4 @@ The user is able to change site styles by selecting the ‘site styles’ link f
 
 ## What's next?
 
-Lorem ipsum...
-Link to [style variables in V8](/v8/templating/style-variables-in-v8/).
+To see how to link these styles so that they can be applied inside a template check out [style variables in V8](/v8/templating/style-variables-in-v8/).

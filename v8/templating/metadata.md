@@ -5,7 +5,11 @@ title: Metadata in V8
 
 # Metadata in V8
 
-Built upon the concept of the advanced metadata.json the v8 metadata extends on the v7 version allowing for an easier way to control your styles. 
+Built upon the concept of the [Advanced Metadata.json](/templating/metadata#the-metadatajson-example-file) the v8 metadata extends on the v7 version allowing for an easier and more versatile way to control your styles.
+
+
+## The metadata.json Example File
+
 
 {% highlight json %}
 {

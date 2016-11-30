@@ -14,7 +14,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 ## Variable categories
 
 
-|**Styles**|**Element**|  
+|**Styles**|**Element**|
 |-------------------|-------------------|
 | **Colors** ||
 | color__body--background |  `<body>`   |
@@ -23,7 +23,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 | color__link--text | `<a>`  |
 | color__companyname--text |   `<div class="companyname">`  |
 ||
-| **Typography** | |     
+| **Typography** | |
 | color__h1--text |   `<h1>`  |
 | color__h1--background|   `<h1>`  |
 |font__h1--font-family| `<h1>`  |
@@ -64,18 +64,18 @@ Variables can be (optionally) grouped into the following categories. This helps 
 |font__p--line-height|`<p>`  |
 |font__p--letter-spacing|`<p>`  |
 |||
-| **Button** | |     
+| **Button** | |
 | color__button--background |   `<a class="button">`  |
 | color__button--background--hover |   `<a class="button">`  |
 | color__button--text |   `<a class="button">`  |
 | color__button--text--hover |   `<a class="button">`  |
 | color__button--border |   `<a class="button">`  |
 |||
-| **Sidebar** | |     
+| **Sidebar** | |
 | color__sidebar--background |   `<div class="template-sidebar">`  |
 | color__sidebar--border |   `<div class="template-sidebar">`  |
 |||
-| **Navigation** | |     
+| **Navigation** | |
 | color__navigation--background |   `<div class="extendednavigation">`  |
 | color__navigation--text |   `<div class="extendednavigation">`  |
 | color__navigation--border |   `<div class="extendednavigation">`  |
@@ -87,7 +87,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 |color__navigation-item--background--selected|	`<div class="extendednavigation__navigation-item">`|
 |color__navigation--icon|	`<button class="navigation-toggle">`|
 |||
-| **Feature** | |     
+| **Feature** | |
 | color__feature--background |   `<div class="feature">`  |
 | color__feature-content--background |   `<div class="feature__content-wrap">`  |
 | color__feature-headline--text |   `<div class="feature__headline">`  |
@@ -99,14 +99,14 @@ Variables can be (optionally) grouped into the following categories. This helps 
 | color__feature-button--background |   `<div class="feature__button">`  |
 | color__feature-button--background--hover |   `<div class="feature__button">`  |
 |||
-| **Form** | |     
+| **Form** | |
 | color__form--background |   `<form class="form">`  |
 | color__form--border |   `<form class="form">`  |
 | color__form-legend--text |   `<legend class="legend">`  |
 | color__form-legend--background |   `<legend class="legend">`  |
 | color__form-label--text |   `<label class="label">`  |
 |||
-| **Image** | |     
+| **Image** | |
 | color__image--background |   `<div class="imagewidget">`  |
 | color__image-caption--background |   `<figure class="imagewidget__caption">`  |
 | color__image-title--text |   `<span class="imagewidget__image-title">`  |
@@ -114,7 +114,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 | color__image-description--text |   `<span class="imagewidget__image-description">`  |
 | color__image-description--background |   `<span class="imagewidget__image-description">`  |
 |||
-| **Gallery** | |   
+| **Gallery** | |
 | color__gallery--background |   `<div class="gallery">`  |
 | color__gallery-caption--background |   `<figure class="gallery__caption">`  |
 | color__gallery-title--text |   `<span class="gallery__image-title">`  |
@@ -122,7 +122,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 | color__gallery-description--text |   `<span class="gallery__image-description">`  |
 | color__gallery-description--background |   `<span class="gallery__image-description">`  |
 |||
-| **Slideshow** | |   
+| **Slideshow** | |
 | color__slideshow--background |   `<div class="responsiveslideshow">`  |
 | color__slideshow-caption--background |   `<figure class="responsiveslideshow__caption">`  |
 | color__slideshow-title--text |   `<span class="responsiveslideshow__image-title">`  |
@@ -136,20 +136,20 @@ Variables can be (optionally) grouped into the following categories. This helps 
 | color__slideshow-pagination-item--text--hover |  |
 | color__slideshow-pagination-item--text--selected |  |
 |||
-| **Twitter** | |   
+| **Twitter** | |
 |color__twitter--background|	`<div class="twitter">`|
 |color__twitter-item--background|	`<li class="twitter__tweet-item">`|
 |color__twitter-account-name--background|	`<span class="twitter__account-name">`|
 |color__twitter-account-name--text|	`<span class="twitter__account-name">`|
 |||
-| **Social Icons** | |   
+| **Social Icons** | |
 |color__socialicons--icon	|`<a class="socialicons__social-link">`|
 |color__socialicons--icon--hover	|`<a class="socialicons__social-link">`|
 |color__socialicons--icon--background	|`<a class="socialicons__social-link">`|
 |color__socialicons--icon--background--hover	|`<a class="socialicons__social-link">`|
 |color__socialicons--text	|`<span class="socialicons__social-name">`|
 |||
-| **Blog** | |   
+| **Blog** | |
 |color__blogsearch--background	|`<div class="blogsearch">`|
 |color__blogsearch-legend--background	|`<legend class="blogsearch__legend">`|
 |color__blogsearch-label--text|	`<label class="blogsearch__label">`|
@@ -162,7 +162,7 @@ Variables can be (optionally) grouped into the following categories. This helps 
 |color__blogpost-title--background|`	<h1 class="blogpost__post-title">`|
 |color__blogpost-title--text	|`<h1 class="blogpost__post-title">`|
 |||
-| **Ecommerce** | |   
+| **Ecommerce** | |
 |color__ecomproductslist--background	|`<div class="ecomproductslist">`|
 |color__ecomproductslist-filters--background	|`<div class="ecomproductslist__product-filters">`|
 |color__ecomproductslist-legend--background	|`<legend class="ecomproductslist__legend">`|
@@ -194,8 +194,8 @@ Variables set in the metadata should be applied to its corresponding element in 
 
 {% highlight scss %}
 
-body { 
-	background-color: @color__body--background; 
+body {
+	background-color: @color__body--background;
 }
 
 {% endhighlight %}
@@ -203,4 +203,4 @@ body {
 
 ## What's next?
 
-Lorem ipsum...
+To find out how these variables are applied in the metadata head to [Metadata in V8](/v8/templating/metadata/).
