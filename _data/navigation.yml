@@ -17,14 +17,26 @@ navdocs:
   url: /getting-started/
   icon: milestone
   subnav:
-  - title: Local Development
-    url: /getting-started/local-development/
   - title: Downloading a Template
     url: /getting-started/downloading/
+  - title: Local Development
+    url: /getting-started/local-development/
   - title: Editing a Template
     url: /getting-started/editing/
   - title: Uploading a Template
     url: /getting-started/uploading/
+
+# GETTING STARTED WITH V8
+- title: Getting Started with V8
+  url: /v8/getting-started/
+  icon: milestone
+  subnav:
+  - title: Downloading a Template
+    url: /v8/getting-started/downloading/
+  - title: Editing a Template
+    url: /v8/getting-started/editing/
+  - title: Uploading a Template
+    url: /v8/getting-started/uploading/
 
 # TEMPLATING
 - title: Templating
@@ -40,10 +52,24 @@ navdocs:
     url: /templating/page-types/
   - title: Metadata
     url: /templating/metadata/
-  - title: LESS
+  - title: Using LESS
     url: /templating/less/
   - title: Quality
     url: /templating/quality/
+
+# TEMPLATING WITH V8
+- title: Templating with V8
+  icon: file-code
+  subnav:
+  - title: Styles Overview
+    url: /v8/templating/styles-overview/
+  - title: Style Variables in V8
+    url: /v8/templating/style-variables-in-v8/
+  - title: Metadata
+    url: /v8/templating/metadata/
+  - title: Using LESS
+    url: /v8/templating/less/
+
 
 # DATA
 - title: Data
