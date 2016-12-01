@@ -9,12 +9,6 @@ There are always different page types within a template; a homepage layout is di
 
 Not only will page types use an alternative markup but when a page is created with a certain type, the zone (where users drag their content into) will be populated with page type related content. For example, a contact page type will populate the zone with a map and a contact form.
 
-## How a User Chooses a Page Type
-
-A user can select a page type at the point of page creation within the editor.
-
-{% include imagecenter.html image="/assets/content/add-page.png" alt="Add page lightbox" %}
-
 ### Default Page Types
 
 Page types are defined as Twig files within the template. The currently supported page types are:
@@ -29,7 +23,7 @@ Page types are defined as Twig files within the template. The currently supporte
 
 ## Page Type Layouts Within a Template
 
-Below is an extension of the file structure defined in the [assets](/templating/assets) section. This extension includes more Twig files - marked with a "*".
+Below is an extension of the file structure defined in the [assets](/templating/assets) section. This extension includes more Twig files - marked with a `*`.
 
 {% highlight text %}
 

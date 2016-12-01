@@ -31,6 +31,7 @@ permalink: pretty
 gems:
 - jemoji
 - jekyll-sitemap
+- jekyll-redirect-from
 
 # Sass options
 sass:

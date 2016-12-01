@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: Metadata
+title: Metadata in V7
 ---
 
-# Metadata
+# Metadata in V7
+
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Metadata in V8](/v8/templating/metadata/).
 
 All templates must contain a `metadata.json` file. This file provides key information about your template to the Editor environments on which it is installed.
 
@@ -222,21 +224,21 @@ h1 {
   "pageTypes": ["home, about, contact, gallery"],
   "colorSwatches": {
     "Funky Named": {
-      "color1": "#ffffff", 
-      "color2": "#72d0eb", 
-      "color3": "#83c028", 
-      "color4": "#2f353e", 
-      "color5": "#b4bec7", 
-      "color6": "#434f5b", 
+      "color1": "#ffffff",
+      "color2": "#72d0eb",
+      "color3": "#83c028",
+      "color4": "#2f353e",
+      "color5": "#b4bec7",
+      "color6": "#434f5b",
       "color7": "#ffffff"
     },
     "Mega Swatch": {
-      "color1": "#ffffff", 
-      "color2": "#e0eef0", 
-      "color3": "#413e4a", 
-      "color4": "#b38184", 
-      "color5": "#9d8e8e", 
-      "color6": "#4b494f", 
+      "color1": "#ffffff",
+      "color2": "#e0eef0",
+      "color3": "#413e4a",
+      "color4": "#b38184",
+      "color5": "#9d8e8e",
+      "color6": "#4b494f",
       "color7": "#ffffff"
     }
   },

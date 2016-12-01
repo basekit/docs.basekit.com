@@ -1,81 +1,32 @@
 ---
 layout: doc
-title: Downloading a Template
+title: Downloading a Template in V7
 ---
 
-# How to Download a Template
+# Downloading a Template in V7
 
-What you'll need to download a template:
+> **Note**: If you're using version 8 of the Editor please see the V8 documentation: [Downloading a Template in V8](/v8/getting-started/downloading/).
 
-* A local web server application (for example [MAMP for Mac OS X or Windows](/getting-started/local-development/#install-a-local-web-server-application))
-* The [Template Development Kit](/getting-started/local-development/#download-the-template-development-kit)
+Once you've activated the **Developer Mode** within the Editor you can download the template you're currently using. Which means you can make small changes to the template, or use it as a basis for your own custom template. If you haven't activated Developer Mode, see [Getting Started](/getting-started/).
 
-Read our [Getting Started](/getting-started/) document for more information.
+## Downloading steps
 
-## Download the zip file
+To download a template you'll need to do the following:
 
-To access the code of your chosen template, open the **Developer** tab:
+1. Go to the **Developer tab** in the Editor and you'll be presented with the online code editor.
+   {% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="online code editor" %}
 
-{% include imagecenter.html image="/assets/content/getting-started/template-tab.png" alt="template tab" %}
+2. Click the cog icon at the top right of the screen. Then click **"Download template ZIP"** to download the currently selected template.
+   {% include imagecenter.html image="/assets/content/getting-started/download-template.png" alt="download template" %}
 
-The code editor will appear. At the top of the code editor panel you will see a settings cog. Click this to reveal the settings menu. 
+3. Once downloaded, **unzip the template**. You should be then presented with a folder containing a selection of files, some of which will be the following:
 
-{% include imagecenter.html image="/assets/content/getting-started/open-settings.png" alt="developer panel settings menu icon" %}
-
-A menu will appear on the right of the template panel. Click on the **Download template** link to download the zip file. 
-
-{% include imagecenter.html image="/assets/content/getting-started/download-template.png" alt="download template" %}
-
-Once downloaded, you'll be able to open the file and see the following basics:
-
-* `stylesheet.less`: this is where you'll add your styles using CSS or LESS for example
-
-* `default.twig`: this is the default layout for all your pages. You can add more Twig files later
-
-* `metadata.json`: this is where you will set all your [options for your template](/templating/metadata/)
+   * `stylesheet.less`: this is where you'll add your styles using CSS or LESS for example
+   * `default.twig`: this is the default layout for all your pages. You can add more Twig files later
+   * `metadata.json`: this is where you will set all your [options for your template](/templating/metadata/)
 
 {% include imagecenter.html image="/assets/content/getting-started/template-files.png" alt="template files" %}
 
-## Using a local server
-
-Now you will need the Local Template Viewer. The zip file you downloaded will need to be placed into the Template Viewer folder and then into the folder named 'templates'.
-
-See the example below using our [June](https://github.com/basekit-templates/june) template:
-
-{% include imagecenter.html image="/assets/content/getting-started/template-directory.png" alt="template directory" %}
-
-Now open your local web server application of choice. We will be using MAMP for this example:
-
-{% include imagecenter.html image="/assets/content/getting-started/mamp.png" alt="MAMP" %}
-
-Click on the preferences button:
-
-{% include imagecenter.html image="/assets/content/getting-started/mamp-preferences.png" alt="MAMP preference" %}
-
-The preferences window will open with numerous tabs. Click on the Web Server or Apache (depending on what version of MAMP you are using) tab:
-
-{% include imagecenter.html image="/assets/content/getting-started/mamp-server-options.png" alt="server options" %}
-
-Click the grey folder icon next to "Document Root", and then select the `public` folder inside the Template Viewer folder. Click OK to confirm your changes.
-
-You should be taken back to the main menu in the MAMP window. Click **Start Servers**. Once loaded, the symbol will turn green:
-
-{% include imagecenter.html image="/assets/content/getting-started/mamp-servers.png" alt="start servers" %}
-
-Once green, MAMP will automatically open up a web browser to give you information on your hostname and port number. Now search for **localhost** or **localhost:[insert port number here]** in your web browser.
-
-> **Note:** You may have problems finding your localhost if your server isn’t green. 
-
-## The Template Viewer
-
-Once you have found your localhost, a page similar to the one below will appear. (Again we have used the template [June](https://github.com/basekit-templates/june) as an example.)
-
-{% include imagecenter.html image="/assets/content/getting-started/tdk-templates.png" alt="TDK templates" %}
-
-Click on the template you wish to code, and get building.
-
-![TDK](/assets/content/getting-started/tdk.png)
-
 ## What's next?
 
-Check out the documentation on [editing a template](/getting-started/editing/).
+Now that you have a template to edit with locally you'll need the **Template Development Kit** to develop your template and see the changes, see [Local Development](/getting-started/local-developement/) for more information.

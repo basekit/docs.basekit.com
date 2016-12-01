@@ -5,46 +5,65 @@ title: Local Development
 
 # Local Development
 
-BaseKit's Template Development Kit enables you to use your own code editor and tools of choice. Follow these instructions to start developing templates locally.
+The Template Development Kit enables you to view templates, including your own, locally without the need of logging into the online Editor. Meaning that you can make changes to your template and see the results instantly.
 
-1. ## Sign up for a BaseKit account
-  * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#download-a-code-editor).
-  * If you already have an account but are not logged in, do so now.
-  * Don't have an account? Head to our [developer partner page](http://www.basekit.com/our-partners) to find a partner to sign up with.
+To setup the TDK follow the steps below:
 
-2. ## Download a code editor 
-   In order to start developing a template, you'll need to download a code editor of your choice. <br/> We recommend using:
-   * [Sublime Text 3](http://www.sublimetext.com/3), for Windows and Mac OS X
-   * [Coda 2](http://panic.com/coda/) for Mac OS X
-   * [Notepad++](http://notepad-plus-plus.org/) for Windows
-   * [Atom Editor](https://atom.io/), for Windows and Mac OS X
+1. ## Install a local web server application
 
-   ### What is a code editor?
-   A code, or text, editor is an application designed specifically for editing source code within development projects. 
+   A local web server application will create a server locally for your TDK and website to work on. If you already have a stand-alone web server application installed, [head to step 4](#download-the-template-development-kit). We recommend using:
 
-   ### Why use a code editor?
-   Your files must contain plain text. Word processing programs like Microsoft Word, Apple Pages or Google Docs add unwanted hidden formatting. Your code generally won't work if it hasn't been written and saved in a plain text environment - a text editor.
+   * [MAMP for Mac OS X](http://www.mamp.info/en/downloads/)
+   * [MAMP for Windows](http://www.mamp.info/en/mamp_windows.html)
 
-   For more detailed information on code editors, and help choosing which ones to use, check out this article(http://blog.teamtreehouse.com/which-text-editor-should-i-use) from Treehouse.
+2. ## Download the Template Development Kit
 
-3. ## Install a local web server application
-   In order to run our Template Development Kit you'll need to download a local web server application. If you already have a stand-alone web server application installed, [head to step 4](#download-the-template-development-kit). <br/> We recommend using:
-   * [Mamp for Mac OS X](http://www.mamp.info/en/downloads/)
-   * [Mamp for Windows](http://www.mamp.info/en/mamp_windows.html)
+   You can download the TDK from the following sources:
 
-   ### What is a local web server application?
-   * It simulates an internet connection on your machine.
+   - {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip" text="Download Current Stable Version" icon="cloud-download" %} (stable)
+   - [Download Specific Version](https://github.com/basekit-templates/tdk/wiki)
 
-   ### Why use one?
-   * You won't be breaking a live site
-   * You can work on your site without worrying about having an internet connection.
-   * It saves you time. Think of it like a live web server, only now you can work on your own machine without having to constantly upload and download files. A local server finds your content locally (from your hard drive), requiring no waiting for uploading and downloading. 
+   Unzip the file once downloaded. We recommend creating a new folder at the root of your machine, something like `Sites` next to your Documents folder.
 
-4. ## Download the Template Development Kit
-   [ Download the Template Development Kit](http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip) and unzip it. We recommend creating a new folder at the root of your machine, something like 'Sites' next to your Documents folder.
+3. ## Launching a local server
 
-   {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip" text="Download Current Stable Version" icon="cloud-download" %} (stable)
+   Just before you launch the TDK using your local server, you'll need to add your downloaded template to the TDK. Locate the `templates/` folder inside the unzipped folder structure of the TDK. See the example below using our [June](https://github.com/basekit-templates/june) template:
 
-   {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-develop.zip" text="Latest / Bleeding Edge Version" icon="cloud-download" %} (development)
+   {% include imagecenter.html image="/assets/content/getting-started/template-directory.png" alt="template directory" %}
 
-   [Download Specific Version](https://github.com/basekit-templates/tdk/wiki)
+   _Note: If you haven't downloaded a template already please see [Downloading a Template in V8](/v8/getting-started/downloading/)._
+
+   Now open your local web server application of choice. We will be using MAMP for this example:
+
+   {% include imagecenter.html image="/assets/content/getting-started/mamp.png" alt="MAMP" %}
+
+   Click on the **preferences** button:
+
+   {% include imagecenter.html image="/assets/content/getting-started/mamp-preferences.png" alt="MAMP preference" %}
+
+   The preferences window will open with numerous tabs. Click on the **Web Server or Apache** (depending on what version of MAMP you are using) tab:
+
+   {% include imagecenter.html image="/assets/content/getting-started/mamp-server-options.png" alt="server options" %}
+
+   Click the grey folder icon next to "Document Root", and then select the `public/` folder inside the TDK folder. Click **OK** to confirm your changes.
+
+   You should be taken back to the main menu in the MAMP window. Click **Start Servers**. Once loaded, the symbol will turn green:
+
+   {% include imagecenter.html image="/assets/content/getting-started/mamp-servers.png" alt="start servers" %}
+
+   Once green, MAMP will automatically open up a web browser to give you information on your hostname and port number. Now visit your local web server in your web browser, which should be something like **localhost:8000**.
+   <br/>_**Note:** You may have problems finding your localhost if your server isn’t green._
+
+4. ## The Template Viewer
+
+   Once you have found your localhost, a page similar to the one below will appear. (Again we have used the template [June](https://github.com/basekit-templates/june) as an example.)
+
+   {% include imagecenter.html image="/assets/content/getting-started/tdk-templates.png" alt="TDK templates" %}
+
+   Click on the template you wish to code, and get building.
+
+   ![TDK](/assets/content/getting-started/tdk.png)
+
+## What's next?
+
+Now that you can see templates locally you'll next want to edit the template to your needs, [editing a template](/getting-started/editing/).

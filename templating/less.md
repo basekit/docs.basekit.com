@@ -1,9 +1,11 @@
 ---
 layout: doc
-title: LESS
+title: Using LESS in V7
 ---
 
-# LESS
+# Using LESS in V7
+
+> **Note**: If you're using version 8 of the Editor please use the V8 documentation: [Using LESS in V8](/v8/templating/less/).
 
 [LESS](http:// lesscss.org/) extends CSS with dynamic behaviour such as **mixins, operations, functions and variables**. As an extension to CSS, LESS is not only backwards compatible with CSS, but the extra features it adds use existing CSS syntax. What this means is that you can write leaner code very quickly.
 
@@ -64,85 +66,85 @@ Font swatches are extensive in the Editor template engine. A font swatch contain
 @font-swatch1-color
 @font-swatch1-font-family
 @font-swatch1-font-size
-@font-swatch1-font-weight 
-@font-swatch1-letter-spacing 
+@font-swatch1-font-weight
+@font-swatch1-letter-spacing
 @font-swatch1-line-height
 
-// Font Swatch 2 = H2 tag 
-@font-swatch2-color 
-@font-swatch2-font-family 
-@font-swatch2-font-size 
-@font-swatch2-font-weight 
-@font-swatch2-letter-spacing 
+// Font Swatch 2 = H2 tag
+@font-swatch2-color
+@font-swatch2-font-family
+@font-swatch2-font-size
+@font-swatch2-font-weight
+@font-swatch2-letter-spacing
 @font-swatch2-line-height
 
-// Font Swatch 3 = H3 tag 
-@font-swatch3-color 
-@font-swatch3-font-family 
-@font-swatch3-font-size 
-@font-swatch3-font-weight 
-@font-swatch3-letter-spacing 
+// Font Swatch 3 = H3 tag
+@font-swatch3-color
+@font-swatch3-font-family
+@font-swatch3-font-size
+@font-swatch3-font-weight
+@font-swatch3-letter-spacing
 @font-swatch3-line-height
 
-// Font Swatch 4 = H4 tag 
-@font-swatch4-color 
-@font-swatch4-font-family 
-@font-swatch4-font-size 
-@font-swatch4-font-weight 
-@font-swatch4-letter-spacing 
+// Font Swatch 4 = H4 tag
+@font-swatch4-color
+@font-swatch4-font-family
+@font-swatch4-font-size
+@font-swatch4-font-weight
+@font-swatch4-letter-spacing
 @font-swatch4-line-height
 
-// Font Swatch 5 = P tag 
-@font-swatch5-color 
-@font-swatch5-font-family 
-@font-swatch5-font-size 
-@font-swatch5-font-weight 
-@font-swatch5-letter-spacing 
+// Font Swatch 5 = P tag
+@font-swatch5-color
+@font-swatch5-font-family
+@font-swatch5-font-size
+@font-swatch5-font-weight
+@font-swatch5-letter-spacing
 @font-swatch5-line-height
 
-// Font Swatch 6 = Navigation 
-@font-swatch6-background-color 
-@font-swatch6-background-color-hover 
-@font-swatch6-color 
-@font-swatch6-color-hover 
-@font-swatch6-font-family 
-@font-swatch6-font-size 
-@font-swatch6-font-weight 
-@font-swatch6-letter-spacing 
+// Font Swatch 6 = Navigation
+@font-swatch6-background-color
+@font-swatch6-background-color-hover
+@font-swatch6-color
+@font-swatch6-color-hover
+@font-swatch6-font-family
+@font-swatch6-font-size
+@font-swatch6-font-weight
+@font-swatch6-letter-spacing
 @font-swatch6-line-height
 
-// Font Swatch 7 = Buttons 
-@font-swatch7-background-color 
-@font-swatch7-background-color-hover 
-@font-swatch7-color 
-@font-swatch7-font-family 
-@font-swatch7-font-size 
-@font-swatch7-font-weight 
-@font-swatch7-letter-spacing 
+// Font Swatch 7 = Buttons
+@font-swatch7-background-color
+@font-swatch7-background-color-hover
+@font-swatch7-color
+@font-swatch7-font-family
+@font-swatch7-font-size
+@font-swatch7-font-weight
+@font-swatch7-letter-spacing
 @font-swatch7-line-height
 
-// Font Swatch 8 = Feature Title 
-@font-swatch8-color 
-@font-swatch8-font-family 
-@font-swatch8-font-size 
-@font-swatch8-font-weight 
-@font-swatch8-letter-spacing 
+// Font Swatch 8 = Feature Title
+@font-swatch8-color
+@font-swatch8-font-family
+@font-swatch8-font-size
+@font-swatch8-font-weight
+@font-swatch8-letter-spacing
 @font-swatch8-line-height
 
-// Font Swatch 9 = Feature Text 
-@font-swatch9-color 
-@font-swatch9-font-family 
-@font-swatch9-font-size 
-@font-swatch9-font-weight 
-@font-swatch9-letter-spacing 
+// Font Swatch 9 = Feature Text
+@font-swatch9-color
+@font-swatch9-font-family
+@font-swatch9-font-size
+@font-swatch9-font-weight
+@font-swatch9-letter-spacing
 @font-swatch9-line-height
 
-// Font Swatch 10 = Company Name 
-@font-swatch10-color 
-@font-swatch10-font-family 
-@font-swatch10-font-size 
-@font-swatch10-font-weight 
-@font-swatch10-letter-spacing 
+// Font Swatch 10 = Company Name
+@font-swatch10-color
+@font-swatch10-font-family
+@font-swatch10-font-size
+@font-swatch10-font-weight
+@font-swatch10-letter-spacing
 @font-swatch10-line-height
 
 {% endhighlight %}
@@ -156,15 +158,15 @@ The Editor also supports server-side LESS rendering and well as client-side rend
 This means we need to inject a path pointing to the LESS file:
 
 {% highlight sass %}
-
-@import "@{templateCommon}/basekit-bootstrap.less";
+{% raw %}
+@import "@{templateCommon}/bk-less-framework.less";
 @import "@{templateLocal}/css/partial.less";
-
+{% endraw %}
 {% endhighlight %}
 
 #### templateCommon
 
-The `"@{templateCommon}"` variable will be replaced with a path pointing to the Template Development Kit common template resources directory, where you can reference files such as `basekit-bootstrap.less`.
+The `"@{templateCommon}"` variable will be replaced with a path pointing to the Template Development Kit common template resources directory, where you can reference files such as `basekit-bootstrap.less` or the newer `bk-less-framework.less`.
 
 #### templateLocal
 
@@ -198,7 +200,7 @@ To reference the css files in the CSS directory, you would place the following c
 
 ### Special Functions for LESS
 
-There are many functions that you can use within LESS files. Most of them are found within the library itself. See [here](http:// lesscss.org/#reference) for LESS functions references.
+There are many functions that you can use within LESS files. Most of them are found within the library itself. See [here](http://lesscss.org/#reference) for LESS functions references.
 
 We have built some other functions so we can achieve the most advanced responsive effects.
 
@@ -222,7 +224,7 @@ h1 {
 
 ### Example CSS File
 
-Here is a simple example of how stylesheet.less files could be created. You can view more examples [on GitHub](https:// github.com/basekit-templates).
+Here is a simple example of how stylesheet.less files could be created. You can view more examples [on GitHub](https://github.com/basekit-templates).
 
 {% highlight scss %}
 
