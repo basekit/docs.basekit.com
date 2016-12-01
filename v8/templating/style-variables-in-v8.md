@@ -203,4 +203,4 @@ body {
 
 ## What's next?
 
-To find out how these variables are applied in the metadata head to [Metadata in V8](/v8/templating/metadata/).
+To find out how these variables are applied in the metadata head over to [Metadata in V8](/v8/templating/metadata/) for more information.

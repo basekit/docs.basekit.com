@@ -26,4 +26,4 @@ Activating the **Developer Mode** within the V8 Editor is much the same as doing
 
 ## What's next?
 
-Now that you have a template to edit with locally you'll need the **Template Development Kit** to develop your template and see the changes, see [Local Development](/getting-started/local-developement/) for more information.
+Now that you have a template to edit with locally you'll need the **Template Development Kit** to develop your template and see the changes, see [Local Development](/getting-started/local-development/) for more information.
