@@ -21,7 +21,7 @@ To setup the TDK follow the steps below:
    You can download the TDK from the following sources:
 
    - {% include button.html link="http://basekit-tdk.s3.amazonaws.com/tdk-stable.zip" text="Download Current Stable Version" icon="cloud-download" %} (stable)
-   - [Download Specific Version](https://github.com/basekit-templates/tdk/wiki)
+   - [Download Specific Version](https://github.com/basekit/docs.basekit.com/wiki/Template-Development-Kit)
 
    Unzip the file once downloaded. We recommend creating a new folder at the root of your machine, something like `Sites` next to your Documents folder.
 
