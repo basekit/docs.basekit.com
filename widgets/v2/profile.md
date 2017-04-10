@@ -214,113 +214,122 @@ You can change the following options for the widget:
 
 Once you select the profile type, you need to specify options for the type:
 
-* ### Address type
-  `profileType`: `address`
+### Address type
 
-  * `address`: The address to display. If set to `profile`, it will use the profile data, or you can put address e.g. `My Company Name`
+`profileType`: `address`
 
-  * `address1`: The address1 to display. If set to `profile`, it will use the profile data, or you can put address e.g. `Example Street`
+* `address`: The address to display. If set to `profile`, it will use the profile data, or you can put address e.g. `My Company Name`
 
-  * `address2`: The address2 to display. If set to `profile`, it will use the profile data, or you can put address e.g. `Atown`
+* `address1`: The address1 to display. If set to `profile`, it will use the profile data, or you can put address e.g. `Example Street`
 
-  * `country`: The country to display. You can only set to `profile`
+* `address2`: The address2 to display. If set to `profile`, it will use the profile data, or you can put address e.g. `Atown`
 
-  * `addressPostalCode`: The postal code to display. If set to `profile`, it will use the profile data, or you can put postcode e.g. `BS1 2ND`
+* `country`: The country to display. You can only set to `profile`
 
-* ### Email type
-  `profileType`: `email`
+* `addressPostalCode`: The postal code to display. If set to `profile`, it will use the profile data, or you can put postcode e.g. `BS1 2ND`
 
-  * `email`: The email address to display. If set to `profile`, it will use the profile data, or you can put email address e.g. `me@myemail.com`
+### Email type
 
-* ### Strapline type
-  `profileType`: `strapline`
+`profileType`: `email`
 
-  * `strapline`: The strap line to display. If set to `profile`, it will use the profile data, or you can put custom strap line e.g. `my strapline`
+* `email`: The email address to display. If set to `profile`, it will use the profile data, or you can put email address e.g. `me@myemail.com`
 
-* ### Headline type
-  `profileType`: `headline`
+### Strapline type
 
-  * `headline`: The headline to display. If set to `profile`, it will use the profile data, or you can put custom headline e.g. `my headline`
+`profileType`: `strapline`
 
-* ### Company Description type
-  `profileType`: `companydescription`
+* `strapline`: The strap line to display. If set to `profile`, it will use the profile data, or you can put custom strap line e.g. `my strapline`
 
-  * `companydescription`: The company description to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `my company`
+### Headline type
 
-* ### Phone type
-  `profileType`: `phone`
+`profileType`: `headline`
 
-  * `phone`: The phone number to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `12345678`
+* `headline`: The headline to display. If set to `profile`, it will use the profile data, or you can put custom headline e.g. `my headline`
 
-* ### Business type
-  `profileType`: `business`
+### Company Description type
 
-  * `business`: The business name to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `BaseKit`
+`profileType`: `companydescription`
 
-* ### Copyright type
-  `profileType`: `copyright`
+* `companydescription`: The company description to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `my company`
 
-  * `copyright`: The copyright to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `© Copyright 2012 BaseKit Platform. All rights reserved`
+### Phone type
 
-* ### Latest Twitter type
-  `profileType`: `twitter`
+`profileType`: `phone`
 
-  * `twitter`: The twitter username for getting the latest tweet. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `BaseKit`
+* `phone`: The phone number to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `12345678`
 
-  * `refreshtime`: It controls how often the data gets refreshed. It uses millisecond as the unit. You can set `60000` for one minute
+### Business type
 
-* ### Map type
-  `profileType`: `map`
+`profileType`: `business`
 
-  * `mapAddress`: The address for rendering a Google Maps visual. If set to `profile`, it will use the profile data, or you can put custom data e.g. `BS1 2ND`
+* `business`: The business name to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `BaseKit`
 
-  * `mapZoom`: The map zoom level, e.g `12`
+### Copyright type
 
-  * `mapHeight`: The map height in `px`. It can be set e.g `150`
+`profileType`: `copyright`
 
-* ### Single Form type
-  `profileType`: `form`
+* `copyright`: The copyright to display. If set to `profile`, it will use the profile data, or you can put custom data e.g. `© Copyright 2012 BaseKit Platform. All rights reserved`
+
+### Latest Twitter type
+
+`profileType`: `twitter`
+
+* `twitter`: The twitter username for getting the latest tweet. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `BaseKit`
+
+* `refreshtime`: It controls how often the data gets refreshed. It uses millisecond as the unit. You can set `60000` for one minute
+
+### Map type
+
+`profileType`: `map`
+
+* `mapAddress`: The address for rendering a Google Maps visual. If set to `profile`, it will use the profile data, or you can put custom data e.g. `BS1 2ND`
+
+* `mapZoom`: The map zoom level, e.g `12`
+
+* `mapHeight`: The map height in `px`. It can be set e.g `150`
+
+### Single Form type
+
+`profileType`: `form`
 
   It uses the profile email address as the form submission address, but the user can change the profile email address in the editor.
 
-  * `formText`: The send button text. It can be set e.g `Send`
+* `formText`: The send button text. It can be set e.g `Send`
 
-  * `formTitle`: The email subject. It can be set e.g `Contact Form`
+* `formTitle`: The email subject. It can be set e.g `Contact Form`
 
-  * `formItalic`: The button text style. `true` or `false`
+* `formItalic`: The button text style. `true` or `false`
 
-  * `formBold`: The button text style. `true` or `false`
+* `formBold`: The button text style. `true` or `false`
 
-  * `formAlign`: The button text style. You can set it:
+* `formAlign`: The button text style. You can set it:
+  * `justifyleft`
+  * `justifyright`
+  * `justifycenter`
+  * `justifyfull`
 
-    * `justifyleft`
-    * `justifyright`
-    * `justifycenter`
-    * `justifyfull`
+* `formFontSize`: The Button text style. You can set it: `inherit`, `14`, `16`, `18`, `20`, `22`, `24`
 
-  * `formFontSize`: The Button text style. You can set it: `inherit`, `14`, `16`, `18`, `20`, `22`, `24`
+* `goalSource`: The source of the URL after you submit the form
+  * `profile` will use the internal link
+  * `custom` could be set to custom email address
 
-  * `goalSource`: The source of the URL after you submit the form
-    * `profile` will use the internal link
-    * `custom` could be set to custom email address
+* `goalUrl`: The url after submit the form
+  * If the `goalSource` is set to `profile`, it should be set to an internal link, e.g. `home`
+  * If the `goalSource` is set to `custom`, it should be set to an external link, e.g. `www.mysite.com`
 
-  * `goalUrl`: The url after submit the form
-  
-    * If the `goalSource` is set to `profile`, it should be set to an internal link, e.g. `home` 
-    * If the `goalSource` is set to `custom`, it should be set to an external link, e.g. `www.mysite.com`
+### Social Icons Type
 
-* ### Social Icons Type
-  `profileType`: `socialicons`
+`profileType`: `socialicons`
 
-  * `socialIconsLinkedin`: LinkedIn icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.linkedin.com/company/mycompany`
+* `socialIconsLinkedin`: LinkedIn icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.linkedin.com/company/mycompany`
 
-  * `socialIconsTwitter`: Twitter icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `twitter`
+* `socialIconsTwitter`: Twitter icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `twitter`
 
-  * `socialIconsFacebook`: Facebook icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://facebook.com/mycompany`
+* `socialIconsFacebook`: Facebook icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://facebook.com/mycompany`
 
-  * `socialIconsRss`: RSS icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.google.com/rss`
+* `socialIconsRss`: RSS icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.google.com/rss`
 
-  * `socialIconsGoogleplus`: Google+ icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.googleplus.com/mycompany`
+* `socialIconsGoogleplus`: Google+ icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.googleplus.com/mycompany`
 
-  * `socialIconsYoutube`: YouTube icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.youtube.com/mycompany`
-  
+* `socialIconsYoutube`: YouTube icon. If set to `profile`, it will use the profile data, or you can put custom data in e.g. `http://www.youtube.com/mycompany`
