@@ -39,14 +39,14 @@ Gulp Tasks
 These are tasks that can be ran with gulp, all of which take the installed bower components and place them into the relevant project directories:
 
 * ```$ gulp``` - Processes all assets for the project
-  
+
   * ```$ gulp styles``` - Copies all style files into ```_sass``` directory
-  
+
     * ```$ gulp css``` - Converts CSS assets into SCSS and copies it into the ```_sass``` directory
     * ```$ gulp sass``` - Copies SCSS assets into the ```_sass``` directory
-  
+
   * ```$ gulp icons``` - Prepares SVG and PNG icons
-  
+
     * ```$ gulp svg``` - Compiles SVG icons into single ```icons.svg``` file
     * ```$ gulp png``` - Creates PNG counterparts of each SVG icon and places them into the ```assets/icons``` directory
     * ```$ gulp fonticons``` - Copies icons fonts into ```fonts``` directory
@@ -79,7 +79,6 @@ The Documentation uses markdown to manage it's content. It also uses pygments fo
 ### Call To Action
 ```> **IMPORTANT**: This is a breaking change.```
 
-License
--------
+_This repository is running with [No License](https://choosealicense.com/no-license/)._
 
-This software is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+> You have no permission from the creators of the software to use, modify, or share the software. Although a code host such as GitHub may allow you to view and fork the code, this does not imply that you are permitted to use, modify, or share the software for any purpose.
