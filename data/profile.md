@@ -26,8 +26,7 @@ You can render these values from the profile data:
 {% highlight html %}
 {% raw %}
 
-<h2>About Us</h2>
-<p>{{ profile.companydescription }}</p>
+{{ profile.companydescription }}
 
 {% endraw %}
 {% endhighlight %}
@@ -52,7 +51,17 @@ You can render these values from the profile data:
 {% endraw %}
 {% endhighlight %}
 
-* `address1` (string): First line of the address entered by the user via the company profile
+* `address` (string): First line of the address entered by the user via the company profile
+
+{% highlight python %}
+{% raw %}
+
+{{ profile.address }}
+
+{% endraw %}
+{% endhighlight %}
+
+* `address1` (string): Second line of the address entered by the user via the company profile
 
 {% highlight python %}
 {% raw %}
@@ -62,22 +71,12 @@ You can render these values from the profile data:
 {% endraw %}
 {% endhighlight %}
 
-* `address2` (string): Second line of the address entered by the user via the company profile
+* `address2` (string): Third line of the address entered by the user via the company profile
 
 {% highlight python %}
 {% raw %}
 
 {{ profile.address2 }}
-
-{% endraw %}
-{% endhighlight %}
-
-* `address` (string): This is the combination of address1 and address2
-
-{% highlight python %}
-{% raw %}
-
-{{ profile.address }}
 
 {% endraw %}
 {% endhighlight %}
@@ -102,7 +101,7 @@ You can render these values from the profile data:
 {% endraw %}
 {% endhighlight %}
 
-* `twitter` (string): Twitter tag entered by the user via the company profile
+* `twitter` (string): Twitter username entered by the user via the company profile
 
 {% highlight python %}
 {% raw %}
